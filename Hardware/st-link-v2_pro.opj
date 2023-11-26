@@ -217,6 +217,7 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\st-link-v2_pro.dsn")
+      (Path "Design Resources" ".\st-link-v2_pro.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
@@ -225,13 +226,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 451 0 1049"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 443 0 1043"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 2943 28 1071")
-        (Scroll "-119 687")
+        (Placement "44 0 1 -1 -1 5 28 5 1225 28 1065")
+        (Scroll "366 0")
         (Zoom "132")
         (Occurrence "/"))
       (Path "F:\ST-LINK-V2\HARDWARE\ST-LINK-V2_PRO.DSN")

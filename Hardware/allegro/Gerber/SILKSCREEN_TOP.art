@@ -3,7 +3,7 @@ G04 Layout Name:  F:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd*
 G04 Film Name:    SILKSCREEN_TOP*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 17.4-S035*
-G04 Origin Date:  Sun Nov 26 22:21:57 2023*
+G04 Origin Date:  Sun Nov 26 23:08:06 2023*
 G04 *
 G04 Layer:  REF DES/SILKSCREEN_TOP*
 G04 Layer:  PACKAGE GEOMETRY/SILKSCREEN_TOP*
@@ -17,7 +17,7 @@ G04 Rotation:  0*
 G04 FullContactRelief:  No*
 G04 UndefLineWidth:     6.00*
 G04 ================== end FILE IDENTIFICATION RECORD ====================*
-%FSLAX25Y25*MOIN*%
+%FSLAX55Y55*MOIN*%
 %IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
 %ADD10C,.006*%
 %ADD11C,.00472*%
