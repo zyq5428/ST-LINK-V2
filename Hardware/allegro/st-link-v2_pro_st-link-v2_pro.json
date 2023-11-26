@@ -1,0 +1,130 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "GND",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):gnd",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0 V"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):gnd",
+			"PropName" : "RATSNEST_SCHEDULE",
+			"Logical" : null,
+			"Physical" : "POWER_AND_GROUND"
+		},
+		{
+			"Name" : "U5V",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):u5v",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "U5V",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):u5v",
+			"PropName" : "RATSNEST_SCHEDULE",
+			"Logical" : null,
+			"Physical" : "POWER_AND_GROUND"
+		},
+		{
+			"Name" : "3V3_ST",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):\\3v3_st\\",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "3.3 V"
+		},
+		{
+			"Name" : "3V3_ST",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):\\3v3_st\\",
+			"PropName" : "RATSNEST_SCHEDULE",
+			"Logical" : null,
+			"Physical" : "POWER_AND_GROUND"
+		},
+		{
+			"Name" : "E5V",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):e5v",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "E5V",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):e5v",
+			"PropName" : "RATSNEST_SCHEDULE",
+			"Logical" : null,
+			"Physical" : "POWER_AND_GROUND"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "J7",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_ra_4x2_2.54p.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "J7"
+		},
+		{
+			"Name" : "J7",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips)",
+			"Logical" : "J7",
+			"Physical" : null
+		}
+	],
+	"Net" : [],
+	"Connection" : [
+		{
+			"Name" : "J7.3",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\3\\",
+			"Logical" : "GND",
+			"Physical" : null
+		},
+		{
+			"Name" : "J7.5",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\5\\",
+			"Logical" : "N60144",
+			"Physical" : null
+		},
+		{
+			"Name" : "J7.7",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\7\\",
+			"Logical" : "N60172",
+			"Physical" : null
+		},
+		{
+			"Name" : "J7.1",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\1\\",
+			"Logical" : "3V3_ST",
+			"Physical" : null
+		},
+		{
+			"Name" : "J7.8",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\8\\",
+			"Logical" : "N43468",
+			"Physical" : null
+		},
+		{
+			"Name" : "J7.2",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\2\\",
+			"Logical" : "N43480",
+			"Physical" : null
+		},
+		{
+			"Name" : "J7.4",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\4\\",
+			"Logical" : "N43828",
+			"Physical" : null
+		},
+		{
+			"Name" : "J7.6",
+			"C_PATH" : "@\\st-link-v2_pro\\.\\st-link\\(sch_1):ins59611@private.\\header_v_4x2_2.54p.normal\\(chips):\\6\\",
+			"Logical" : "N43472",
+			"Physical" : null
+		}
+	]
+}

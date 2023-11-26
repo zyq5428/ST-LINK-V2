@@ -1,0 +1,26 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    IPC-D-356                                                        )
+(                                                                     )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Nov 26 22:23:12 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Warning: String SLOT_OB60_170OB100_200 exceeds record length on line 48 at column 4
+Warning: String T_L65_90SL_180_M180_90 exceeds record length on line 67 at column 4
+Warning: String T_L65_100_200_M200_100 exceeds record length on line 68 at column 4
+Warning: String T_L65_100SL_200_M200_100 exceeds record length on line 69 at column 4
+Warning: String S_R30T113M30_113P30_113 exceeds record length on line 70 at column 4
+Warning: Found a mechanical pin at location (345.00 181.00) with no drill - skipping.
+Warning: Found a mechanical pin at location (2091.00 1009.00) with no drill - skipping.
+Warning: Found a mechanical pin at location (255.00 1030.00) with no drill - skipping.
+Warning: String A1B12 exceeds record length on line 515 at column 28
+Warning: String B1A12 exceeds record length on line 518 at column 28
+
+
+------------------------------------------
+SUMMARY:
+  Errors:       0
+  Warnings:    10

@@ -1,5 +1,8 @@
 A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
-J!F:/ST-LINK-V2/HARDWARE/allegro/st-link-v2_pro.brd!Sat Nov 25 18:32:19 2023!-3937.00!-3937.00!3937.00!3937.00!0.01!mils!ST-LINK-V2_PRO!60.433071 mil!2!UP TO DATE!
+J!F:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd!Sun Nov 26 21:39:39 2023!-3937.00!-3937.00!3937.00!3937.00!0.01!mils!ST-LINK-V2_PRO!60.433071 mil!2!UP TO DATE!
+S!N01643!Q1!1!@\st-link-v2_pro\.\st-link\(sch_1):ins1060@private.\tr_npn_ss8050_25v_1.5a_sot-23.normal\(chips)!TR_NPN_SS8050_25V_1.5A_SOT-23_SOT23-3P95_240X110L53X44N_SS8050!!!F42!!!!!!!!!!
+S!3V3_ST!Q1!3!@\st-link-v2_pro\.\st-link\(sch_1):ins1060@private.\tr_npn_ss8050_25v_1.5a_sot-23.normal\(chips)!TR_NPN_SS8050_25V_1.5A_SOT-23_SOT23-3P95_240X110L53X44N_SS8050!!!F42!!!!!!!!!!
+S!N01383!Q1!2!@\st-link-v2_pro\.\st-link\(sch_1):ins1060@private.\tr_npn_ss8050_25v_1.5a_sot-23.normal\(chips)!TR_NPN_SS8050_25V_1.5A_SOT-23_SOT23-3P95_240X110L53X44N_SS8050!!!F42!!!!!!!!!!
 S!N01643!R17!1!@\st-link-v2_pro\.\st-link\(sch_1):ins97770@private.\res_36k_5%_0402.normal\(chips)!RES_36K_5%_0402_RESC100X50X40L25N_36K,5%!!!F24!!!!!!!!!!
 S!GND!R17!2!@\st-link-v2_pro\.\st-link\(sch_1):ins97770@private.\res_36k_5%_0402.normal\(chips)!RES_36K_5%_0402_RESC100X50X40L25N_36K,5%!!!F24!!!!!!!!!!
 S!ST_USB_P!R18!1!@\st-link-v2_pro\.\st-link\(sch_1):ins97923@private.\res_1.5k_5%_0402.normal\(chips)!RES_1.5K_5%_0402_RESC100X50X40L25N_1.5K,5%!!!F23!!!!!!!!!!
@@ -179,9 +182,6 @@ S!GND!J9!3!@\st-link-v2_pro\.\st-link\(sch_1):ins44111@private.\header_4x1_2.54p
 S!N44493!J9!4!@\st-link-v2_pro\.\st-link\(sch_1):ins44111@private.\header_4x1_2.54p.normal\(chips)!HEADER_4X1_2.54P_HEADER_4X1_2P54_4X2.54P!!!F45!!!!!!!!!!
 S!PB10!J5!1!@\st-link-v2_pro\.\st-link\(sch_1):ins15089@private.\header_2x1_2.54p.normal\(chips)!HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P(NC)!!!F44!!!!!!!!!!
 S!GND!J5!2!@\st-link-v2_pro\.\st-link\(sch_1):ins15089@private.\header_2x1_2.54p.normal\(chips)!HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P(NC)!!!F44!!!!!!!!!!
-S!N01643!Q1!1!@\st-link-v2_pro\.\st-link\(sch_1):ins1060@private.\s8050.normal\(chips)!S8050_SOT-23_S8050!!!F42!!!!!!!!!!
-S!3V3_ST!Q1!3!@\st-link-v2_pro\.\st-link\(sch_1):ins1060@private.\s8050.normal\(chips)!S8050_SOT-23_S8050!!!F42!!!!!!!!!!
-S!N01383!Q1!2!@\st-link-v2_pro\.\st-link\(sch_1):ins1060@private.\s8050.normal\(chips)!S8050_SOT-23_S8050!!!F42!!!!!!!!!!
 S!ST_BOOT0!U2!44!@\st-link-v2_pro\.\st-link\(sch_1):ins6958@private.\stm32f103cbt6a.normal\(chips)!STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6!!!F3!!!!!!!!!!
 S!STM_RST!U2!7!@\st-link-v2_pro\.\st-link\(sch_1):ins6958@private.\stm32f103cbt6a.normal\(chips)!STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6!!!F3!!!!!!!!!!
 S!OSC_IN!U2!5!@\st-link-v2_pro\.\st-link\(sch_1):ins6958@private.\stm32f103cbt6a.normal\(chips)!STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6!!!F3!!!!!!!!!!

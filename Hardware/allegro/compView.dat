@@ -1,5 +1,6 @@
 A!REFDES!COMP_VOLTAGE!COMP_ROOM!COMP_GROUP!COMP_SIGNAL_MODEL!COMP_NO_XNET_CONNECTION!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_REUSE_ID!COMP_REUSE_NAME!COMP_REUSE_INSTANCE!
-J!F:/ST-LINK-V2/HARDWARE/allegro/st-link-v2_pro.brd!Sat Nov 25 18:32:19 2023!-3937.00!-3937.00!3937.00!3937.00!0.01!mils!ST-LINK-V2_PRO!60.433071 mil!2!UP TO DATE!
+J!F:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd!Sun Nov 26 21:39:39 2023!-3937.00!-3937.00!3937.00!3937.00!0.01!mils!ST-LINK-V2_PRO!60.433071 mil!2!UP TO DATE!
+S!Q1!!!!!!!!!!!
 S!R17!!!!!!!!!!!
 S!R18!!!!!!!!!!!
 S!SH1!!!!!!!!!!!
@@ -74,7 +75,6 @@ S!J7!!!!!!!!!!!
 S!J12!!!!!!!!!!!
 S!J9!!!!!!!!!!!
 S!J5!!!!!!!!!!!
-S!Q1!!!!!!!!!!!
 S!U2!!!!!!!!!!!
 S!Y1!!!!!!!!!!!
 S!Y2!!!!!!!!!!!

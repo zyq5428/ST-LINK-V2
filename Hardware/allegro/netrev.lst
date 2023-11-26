@@ -1,0 +1,96 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : st-link-v2_pro.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Nov 26 21:39:43 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'f:\st-link-v2\hardware\allegro'
+Design Directory:            'F:/ST-LINK-V2/Hardware/allegro'
+Old design name:             'F:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd'
+New design name:             'F:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd'
+
+CmdLine: netrev -y 1 -i f:\st-link-v2\hardware\allegro -q netrev_constraint_report.xml F:/ST-LINK-V2/Hardware/allegro/#Taaaaam04088.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read f:/st-link-v2/hardware/allegro/pstchip.dat 
+   Finished reading f:/st-link-v2/hardware/allegro/pstchip.dat (00:00:00.06)
+Starting to read f:/st-link-v2/hardware/allegro/pstxprt.dat 
+   Finished reading f:/st-link-v2/hardware/allegro/pstxprt.dat (00:00:00.00)
+Starting to read f:/st-link-v2/hardware/allegro/pstxnet.dat 
+   Finished reading f:/st-link-v2/hardware/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/modules 
+
+PSMPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           F:/Cadence_learn/Lib/Package 
+           F:/Cadence_learn/FPX/Footprint 
+
+PADPATH =  . 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/padstacks 
+           d:/cadence/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           F:/Cadence_learn/Lib/Package 
+           F:/Cadence_learn/FPX/Footprint 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 26 21:39:43 2023
+   DESIGN NAME : 'ST-LINK-V2_PRO'
+   PACKAGING ON Jan 14 2023 14:52:27
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:02:25
+elapsed time  0:00:00
+

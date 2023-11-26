@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.4.0 d001Nov-25-2023 at 18:32:35 }
+{ Using PSTWRITER 17.4.0 d001Nov-26-2023 at 21:39:42 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='ST-LINK-V2_PRO';
@@ -338,12 +338,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J7 'HEADER_RA_4X2_2.54P_HEADER_RA_4X2_2P54_8X2.54P':;
+ J7 'HEADER_V_4X2_2.54P_HDRV8W64P254_4X2_1016X502H838_P2.54X4X2':;
 
 SECTION_NUMBER 1
- '@ST-LINK-V2_PRO.ST-LINK(SCH_1):INS59611@PRIVATE.HEADER_RA_4X2_2.54P.NORMAL(CHIPS)':
- C_PATH='@\st-link-v2_pro\.\st-link\(sch_1):ins59611@private.\header_ra_4x2_2.54p.normal\(chips)',
- P_PATH='@\st-link-v2_pro\.\st-link\(sch_1):page1_ins59611@private.\header_ra_4x2_2.54p.normal\(chips)',
+ '@ST-LINK-V2_PRO.ST-LINK(SCH_1):INS59611@PRIVATE.HEADER_V_4X2_2.54P.NORMAL(CHIPS)':
+ C_PATH='@\st-link-v2_pro\.\st-link\(sch_1):ins59611@private.\header_v_4x2_2.54p.normal\(chips)',
+ P_PATH='@\st-link-v2_pro\.\st-link\(sch_1):page1_ins59611@private.\header_v_4x2_2.54p.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

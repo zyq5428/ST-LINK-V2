@@ -1,0 +1,55 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : st-link-v2_pro.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Nov 26 21:59:21 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  N62729               TOP                     0.28     *(368.09 648.00) to  (367.81 648.00)
+  N60172               TOP                     0.28     *(1649.91 795.00) to  (1650.19 795.00)
+  N60144               TOP                     0.28     *(2082.91 590.00) to  (2083.19 590.00)
+  N15750               TOP                     0.28      (1743.19 840.00) to *(1742.91 840.00)
+  T_SWO                TOP                     0.28      (2046.81 740.55) to *(2047.09 740.55)
+  N43472               TOP                     0.28      (2083.19 640.55) to *(2082.91 640.55)
+  N43828               TOP                     0.28     *(2082.91 540.55) to  (2083.19 540.55)
+  N43480               TOP                     0.28     *(2082.91 486.00) to  (2083.19 486.00)
+  N43468               TOP                     0.28      (2083.19 740.55) to *(2082.91 740.55)
+  T_JTMS               TOP                     0.28     *(1614.09 795.00) to  (1613.81 795.00)
+  T_SWDIO_IN           TOP                     0.28     *(1530.09 795.00) to  (1529.81 795.00)
+  T_JRST               TOP                     0.28     *(2047.09 640.55) to  (2046.81 640.55)
+  T_JTCK               TOP                     0.28     *(2047.09 590.00) to  (2046.81 590.00)
+  STLINK_RX            TOP                     0.28     *(2047.09 540.55) to  (2046.81 540.55)
+  STLINK_TX            TOP                     0.28     *(2047.09 486.00) to  (2046.81 486.00)
+  E5V                  TOP                     0.28     *(750.39 340.00) to  (750.11 340.00)
+  ST_BOOT0             TOP                     0.28      (1036.19 580.71) to *(1035.91 580.71)
+  N09890               TOP                     0.28     *(1037.91 365.00) to  (1038.19 365.00)
+  USB_RENUMN           TOP                     0.28     *(786.21 441.28) to  (786.49 441.28)
+  3V3_ST               TOP                     0.28     *(862.09 228.00) to  (861.81 228.00)
+  N62849               TOP                     0.28     *(368.33 490.00) to  (368.05 490.00)
+  U5V                  TOP                     0.28     *(786.21 390.06) to  (786.49 390.06)
+  GND                  TOP                     1.96      (1190.95 769.20) to *(1190.95 771.16)
+
+<< Summary >>
+  Total dangling lines:      23
+  Total dangling vias:        0
+  Total antenna vias:         0
