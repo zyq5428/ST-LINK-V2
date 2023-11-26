@@ -1,0 +1,172 @@
+(ExpressProject "ST-Link-V2"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[07/05/23]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "f:\cadence_learn\lib\orcad\private.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\st-link-v2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout"
+    (File ".\allegro\st-link-v2_pro.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\st-link-v2_pro.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (ESD_B_ULCE0505A015FR_5V_0402
+      (FullPartName "ESD_B_ULCE0505A015FR_5V_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE BI-DIR TRIG"
+      (FullPartName "DIODE BI-DIR TRIG.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TVS_S_SMF5.0A_5V_SOD-123
+      (FullPartName "TVS_S_SMF5.0A_5V_SOD-123.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("T POINT A"
+      (FullPartName "T POINT A.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RES_100R_5%_0402
+      (FullPartName "RES_100R_5%_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_22R_5%_0402
+      (FullPartName "RES_22R_5%_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_1k_5%_0603
+      (FullPartName "RES_1k_5%_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (LED_Green_0603
+      (FullPartName "LED_Green_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (LED_Red_0603
+      (FullPartName "LED_Red_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (LED__0603
+      (FullPartName "LED__0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RES_2.7k_5%_0402
+      (FullPartName "RES_2.7k_5%_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_0R_5%_0603
+      (FullPartName "RES_0R_5%_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (HEADER_6X1_2.54P
+      (FullPartName "HEADER_6X1_2.54P.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (HEADER_4X1_2.54P
+      (FullPartName "HEADER_4X1_2.54P.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (HEADER_2X1_2.54P
+      (FullPartName "HEADER_2X1_2.54P.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (RES_4.7k_5%_0603
+      (FullPartName "RES_4.7k_5%_0603.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (RES_100k_5%_0402
+      (FullPartName "RES_100k_5%_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (32.768KHz_12.5pF_SMD3215-2P
+      (FullPartName "32.768KHz_12.5pF_SMD3215-2P.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (CAP_20pF_50V_NP0_0402
+      (FullPartName "CAP_20pF_50V_NP0_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    (CAP_pF_50V_NP0_0402
+      (FullPartName "CAP_pF_50V_NP0_0402.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "59427")
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence\Cadence\SPB_17.4\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\st-link-v2.dsn")
+      (Path "Design Resources" ".\st-link-v2.dsn" "ST-Link")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "f:\cadence_learn\lib\orcad\private.olb")
+      (Path "Layout")
+      (Select "Design Resources" "Library"
+         "f:\cadence_learn\lib\orcad\private.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1049"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 3194 28 1071")
+        (Scroll "-912 -4")
+        (Zoom "66")
+        (Occurrence "/"))
+      (Path "F:\ST-LINK-V2\HARDWARE\ST-LINK-V2.DSN")
+      (Schematic "ST-Link")
+      (Page "ST-Link-V2"))))
