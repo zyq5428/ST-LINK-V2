@@ -233,7 +233,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 769")
-        (Scroll "492 308")
+        (Scroll "502 360")
         (Zoom "92")
         (Occurrence "/"))
       (Path "E:\ST-LINK-V2\HARDWARE\ST-LINK-V2_PRO.DSN")

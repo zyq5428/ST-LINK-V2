@@ -53,6 +53,13 @@
     * LED为绿色：上一次通信已成功。
     * LED为橙色：与目标的ST-LINK通信失败
 
+### 版本检测和处理
+
+* All ST-Link variants:
+    * PC13/14 open -> Standalone ST-Link v2 or baite, some STM32 Disco w/o accessible UART RX/TX
+    * PC13 low -> SWIM internal connection
+    * PC13/PC14 both low -> ST-Link v2 on some F4_Diso boards.
+
 ## 烧录固件
 
 ### 固件版本
@@ -87,7 +94,11 @@
 
 * ST-LINK 固件升级工具不知从哪个版本开始，不支持跨版本更新固件。
 * ST-LINK 最近的几个版本的固件已加入了读保护，SWD口是锁上的，所以不能通过SWD口读写固件。
-    * 如果想改为其他的，我们可以用STM32 ST-LINK utility将写保护的级别修改，然后全部擦除，就可以重新烧录了。
+    * 如果想改为其他的，我们可以用STM32 ST-LINK utility将写保护的级别修改。菜单栏target里打开Option Bytes...选项，或者直接通过快捷键ctrl+B打开，请确保当前已经正确连接了stlink和目标板，否则会出现报错。
+    * 关键点：将Read Out Protection选项设置为disable，点击Apply，这时候Flash已经成功解锁了。但是同时发现，内部Flash已经被擦除了；这可能STM32的保护机制有关，防止程序被拷机，然后进行反编译破解，这样也可以提高破解的门槛。
+    * 完成以上步骤之后，在菜单栏Target下选择Disconnect，或者通过快捷键ctrl+D断开和目标板的连接；重新进入MDK，就能正常对目标板进行调试，仿真，以及程序的烧写。
+
+正确连接的情况下，打开Option Bytes...，发现在这里Read Out Protection选项是enable，这个表示无法通过swd读取STM32内部Flash的程序。
     
 ![写保护级别.png](./assets/写保护级别.png)
 
