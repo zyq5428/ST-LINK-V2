@@ -1,0 +1,27 @@
+\t (00:00:08) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Sat Dec  9 13:19:16 2023
+\t (00:00:08)         Host=HEROZHOU User=59427 Pid=21716 CPUs=12
+\t (00:00:08) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:08) 
+   (00:00:09) Loading axlcore.cxt 
+\t (00:00:10) Opening existing design...
+\d (00:00:10) Design opened: F:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd
+\i (00:00:11) trapsize 1454
+\i (00:00:11) trapsize 1516
+\i (00:00:11) trapsize 1521
+\i (00:00:11) trapsize 1521
+\t (00:00:11) > Sending response DoneOpenBoard
+\i (00:00:12) generaledit 
+\i (00:18:28) trl altium2pcb 
+\i (00:18:28) helpcmd C:/Users/59427/AppData/Local/Temp/#Taaaaaf21716.tmp 
+\w (00:18:28) Warning: Application needs to be launched from empty database with default layers.
+\i (00:18:34) fillin confirm
+   (00:18:34) Loading translators.cxt 
+   (00:18:34) Loading toolbox.cxt 
+   (00:18:34) Initializing toolbox...
+\i (00:18:34) generaledit 
+\i (00:18:39) new 
+\e (00:18:39) Do you want to save the changes you made to st-link-v2_pro.brd?
+\i (00:18:44) fillin no 
+\i (00:20:02) newdrawfillin "pakge.brd" "Board"
+\t (00:20:02)     Journal end - Sat Dec  9 13:39:10 2023

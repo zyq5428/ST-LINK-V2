@@ -1,21 +1,22 @@
 (ExpressProject "ST-Link-V2"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[11/26/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[12/09/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "f:\cadence_learn\lib\orcad\private.olb"
         (Type "Schematic Library")
-        (DisplayName "..\..\cadence_learn\lib\orcad\private.olb"))
+        (DisplayName "..\..\..\cadence_learn\lib\orcad\private.olb"))
       (File "d:\cadence_learn\lib\orcad\private.olb"
-        (Type "Schematic Library")))
+        (Type "Schematic Library")
+        (DisplayName "d:\cadence_learn\lib\orcad\private.olb")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
-    (File ".\st-link-v2_pro.dsn"
+    (File ".\st-link-v2_pro_opt.dsn"
       (Type "Schematic Design")
-      (DisplayName ".\st-link-v2_pro.DSN"))
+      (DisplayName ".\st-link-v2_pro_opt.DSN"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (Board_sim_option "VHDL_flow")
@@ -79,7 +80,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\st-link-v2_pro.bom"
-      (Type "Report")))
+      (Type "Report")
+      (DisplayName ".\st-link-v2_pro.bom")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -103,6 +105,29 @@
       (Type "Log File")
       (LogFile "f:\st-link-v2\hardware\allegro\genfeed.log")))
   (PartMRUSelector
+    (HEADER_5X1_2.54P
+      (FullPartName "HEADER_5X1_2.54P.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    ("CONN PLUG 5"
+      (FullPartName "CONN PLUG 5.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN FLEX 5"
+      (FullPartName "CONN FLEX 5.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("SW_ PUSHBUTTON_4P_2V2"
+      (FullPartName "SW_ PUSHBUTTON_4P_2V2.Normal")
+      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON-SPST-2"
+      (FullPartName "SW PUSHBUTTON-SPST-2.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (RES_36k_5%_0402
       (FullPartName "RES_36k_5%_0402.Normal")
       (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
@@ -188,55 +213,38 @@
     (RES_1k_5%_0603
       (FullPartName "RES_1k_5%_0603.Normal")
       (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
-      (DeviceIndex "0"))
-    (LED_Green_0603
-      (FullPartName "LED_Green_0603.Normal")
-      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
-      (DeviceIndex "0"))
-    (LED_Red_0603
-      (FullPartName "LED_Red_0603.Normal")
-      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
-      (DeviceIndex "0"))
-    (LED__0603
-      (FullPartName "LED__0603.Normal")
-      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName
-         "D:\CADENCE\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (RES_2.7k_5%_0402
-      (FullPartName "RES_2.7k_5%_0402.Normal")
-      (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "Administrator")
+  (MPSSessionName "59427")
   (LastUsedLibraryBrowseDirectory
      "D:\Cadence\Cadence\SPB_17.4\tools\capture\library")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\st-link-v2_pro.dsn")
-      (Path "Design Resources" ".\st-link-v2_pro.dsn" "ST-Link")
+      (Path "Design Resources" ".\st-link-v2_pro_opt.dsn")
+      (Path "Design Resources" ".\st-link-v2_pro_opt.dsn" "ST-Link")
+      (Path "Design Resources" ".\st-link-v2_pro_opt.dsn" "Design Cache")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "f:\cadence_learn\lib\orcad\private.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\st-link-v2_pro.dsn" "ST-Link" "ST-Link-V2"))
+      (Select "Design Resources" "Library"
+         "f:\cadence_learn\lib\orcad\private.olb" "HEADER_5X1_2.54P"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 747"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 526 0 1049"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 769")
-        (Scroll "502 360")
-        (Zoom "92")
+        (Placement "44 0 1 -1 -1 -1 -1 5 2587 28 1071")
+        (Scroll "-608 -4")
+        (Zoom "66")
         (Occurrence "/"))
-      (Path "E:\ST-LINK-V2\HARDWARE\ST-LINK-V2_PRO.DSN")
+      (Path "F:\ST-LINK-V2\HARDWARE\OPTIMIZE\ST-LINK-V2_PRO_OPT.DSN")
       (Schematic "ST-Link")
       (Page "ST-Link-V2")))
   (ISPCBBASICLICENSE "false"))
