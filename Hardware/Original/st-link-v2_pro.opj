@@ -1,6 +1,6 @@
 (ExpressProject "ST-Link-V2"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[11/26/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[12/09/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -227,16 +227,16 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 747"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1043"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1393 28 769")
-        (Scroll "502 360")
-        (Zoom "92")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1468 28 1065")
+        (Scroll "1185 36")
+        (Zoom "130")
         (Occurrence "/"))
-      (Path "E:\ST-LINK-V2\HARDWARE\ST-LINK-V2_PRO.DSN")
+      (Path "F:\ST-LINK-V2\HARDWARE\ORIGINAL\ST-LINK-V2_PRO.DSN")
       (Schematic "ST-Link")
       (Page "ST-Link-V2")))
   (ISPCBBASICLICENSE "false"))

@@ -1,238 +1,27 @@
-\t (00:00:05) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:05)     Journal start - Thu Dec  7 10:03:27 2023
-\t (00:00:05)         Host=LTSC-20211101AY User=Administrator Pid=8112 CPUs=8
-\t (00:00:05) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe E:\ST-LINK-V2\Hardware\allegro\st-link-v2_pro.brd
-\t (00:00:05) 
-   (00:00:05) Loading axlcore.cxt 
-\t (00:00:07) Opening existing design...
-\d (00:00:07) Design opened: E:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd
-\i (00:00:07) trapsize 1237
-\i (00:00:07) trapsize 1270
-\i (00:00:07) trapsize 1289
-\i (00:00:07) trapsize 1289
-\t (00:00:07) > Sending response DoneOpenBoard
-\i (00:00:08) generaledit 
-\t (00:01:02) > Response received OpenDesign is done by remote tool
-\t (00:01:02) Design e:\st-link-v2\hardware\st-link-v2_pro.opj has been opened
-\i (00:02:08) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
-\i (00:02:08) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
-\i (00:02:14) setwindow form.find
-\i (00:02:14) FORM find pins YES 
-\i (00:02:18) setwindow pcb
-\i (00:02:18) zoom in 1 
-\i (00:02:19) setwindow pcb
-\i (00:02:19) zoom in 2199.24 571.22
-\i (00:02:19) trapsize 644
-\i (00:02:19) zoom in 1 
-\i (00:02:19) setwindow pcb
-\i (00:02:19) zoom in 2199.24 571.22
-\i (00:02:19) trapsize 322
-\i (00:02:20) zoom in 1 
-\i (00:02:20) setwindow pcb
-\i (00:02:20) zoom in 2224.37 596.35
-\i (00:02:20) trapsize 161
-\i (00:02:20) zoom in 1 
-\i (00:02:20) setwindow pcb
-\i (00:02:20) zoom in 2229.85 598.61
-\i (00:02:20) trapsize 81
-\i (00:02:20) zoom in 1 
-\i (00:02:20) setwindow pcb
-\i (00:02:20) zoom in 2229.85 598.61
-\i (00:02:20) trapsize 40
-\i (00:02:21) zoom out 1 
-\i (00:02:21) setwindow pcb
-\i (00:02:21) zoom out 2212.05 585.73
-\i (00:02:21) trapsize 81
-\i (00:02:21) zoom out 1 
-\i (00:02:21) setwindow pcb
-\i (00:02:21) zoom out 2212.05 585.73
-\i (00:02:21) trapsize 161
-\i (00:02:21) zoom out 1 
-\i (00:02:21) setwindow pcb
-\i (00:02:21) zoom out 2223.33 577.02
-\i (00:02:21) trapsize 322
-\i (00:02:22) zoom out 1 
-\i (00:02:22) setwindow pcb
-\i (00:02:22) zoom out 2227.20 575.74
-\i (00:02:22) trapsize 644
-\i (00:02:24) zoom out 1 
-\i (00:02:24) setwindow pcb
-\i (00:02:24) zoom out 2028.72 713.65
-\i (00:02:24) trapsize 1289
-\i (00:02:26) zoom in 1 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom in 2095.74 491.97
-\i (00:02:26) trapsize 644
-\i (00:02:26) zoom in 1 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom in 2095.74 491.97
-\i (00:02:26) trapsize 322
-\i (00:02:27) zoom out 1 
-\i (00:02:27) setwindow pcb
-\i (00:02:27) zoom out 2150.52 533.22
-\i (00:02:27) trapsize 644
-\i (00:02:27) zoom out 1 
-\i (00:02:27) setwindow pcb
-\i (00:02:27) zoom out 2150.52 533.21
-\i (00:02:27) trapsize 1289
-\i (00:02:28) zoom in 1 
-\i (00:02:28) setwindow pcb
-\i (00:02:28) zoom in 1993.29 466.20
-\i (00:02:28) trapsize 644
-\i (00:02:28) zoom in 1 
-\i (00:02:28) setwindow pcb
-\i (00:02:28) zoom in 1993.29 466.20
-\i (00:02:28) trapsize 322
-\i (00:02:30) zoom out 1 
-\i (00:02:30) setwindow pcb
-\i (00:02:30) zoom out 2004.89 424.31
-\i (00:02:30) trapsize 644
-\i (00:20:51) zoom in 1 
-\i (00:20:51) setwindow pcb
-\i (00:20:51) zoom in 2217.55 676.93
-\i (00:20:51) trapsize 322
-\i (00:20:51) zoom in 1 
-\i (00:20:51) setwindow pcb
-\i (00:20:51) zoom in 2217.55 676.93
-\i (00:20:51) trapsize 161
-\i (00:20:54) zoom out 1 
-\i (00:20:54) setwindow pcb
-\i (00:20:54) zoom out 2110.26 625.70
-\i (00:20:54) trapsize 322
-\i (00:20:55) zoom out 1 
-\i (00:20:55) setwindow pcb
-\i (00:20:55) zoom out 2270.71 700.45
-\i (00:20:55) trapsize 644
-\i (00:20:56) zoom in 1 
-\i (00:20:56) setwindow pcb
-\i (00:20:56) zoom in 1625.00 782.94
-\i (00:20:56) trapsize 322
-\i (00:20:56) zoom in 1 
-\i (00:20:56) setwindow pcb
-\i (00:20:56) zoom in 1625.01 782.94
-\i (00:20:56) trapsize 161
-\i (00:20:58) zoom out 1 
-\i (00:20:58) setwindow pcb
-\i (00:20:58) zoom out 1646.60 768.12
-\i (00:20:58) trapsize 322
-\i (00:20:59) zoom in 1 
-\i (00:20:59) setwindow pcb
-\i (00:20:59) zoom in 1395.91 795.20
-\i (00:20:59) trapsize 161
-\i (00:21:01) zoom out 1 
-\i (00:21:01) setwindow pcb
-\i (00:21:01) zoom out 1418.14 786.82
-\i (00:21:01) trapsize 322
-\i (00:21:01) zoom out 1 
-\i (00:21:01) setwindow pcb
-\i (00:21:01) zoom out 1418.14 786.82
-\i (00:21:01) trapsize 644
-\i (00:21:02) zoom out 1 
-\i (00:21:02) setwindow pcb
-\i (00:21:02) zoom out 2099.93 724.96
-\i (00:21:02) trapsize 1289
-\i (00:46:10) xNet St_Boot0 
-\i (00:46:10) xname_flush 
-\i (00:46:10) trapsize 52
-\i (00:46:14) xNet St_Boot0 
-\i (00:46:14) xname_flush 
-\i (00:46:14) trapsize 52
-\i (00:50:42) zoom out 1 
-\i (00:50:42) setwindow pcb
-\i (00:50:42) zoom out 1075.16 563.14
-\i (00:50:42) trapsize 104
-\i (00:50:42) zoom out 1 
-\i (00:50:42) setwindow pcb
-\i (00:50:42) zoom out 1075.16 563.14
-\i (00:50:42) trapsize 208
-\i (00:50:42) zoom out 1 
-\i (00:50:43) setwindow pcb
-\i (00:50:43) zoom out 1082.26 567.31
-\i (00:50:43) trapsize 417
-\i (00:50:43) zoom out 1 
-\i (00:50:43) setwindow pcb
-\i (00:50:43) zoom out 1065.58 558.98
-\i (00:50:43) trapsize 834
-\i (00:50:43) zoom out 1 
-\i (00:50:43) setwindow pcb
-\i (00:50:43) zoom out 1065.57 558.98
-\i (00:50:43) trapsize 1667
-\i (00:50:43) zoom in 1 
-\i (00:50:43) setwindow pcb
-\i (00:50:43) zoom in 2069.34 679.03
-\i (00:50:43) trapsize 834
-\i (00:50:43) zoom in 1 
-\i (00:50:44) setwindow pcb
-\i (00:50:44) zoom in 2091.02 675.70
-\i (00:50:44) trapsize 417
-\i (00:50:44) zoom in 1 
-\i (00:50:44) setwindow pcb
-\i (00:50:44) zoom in 2108.53 677.37
-\i (00:50:44) trapsize 208
-\i (00:50:44) zoom out 1 
-\i (00:50:44) setwindow pcb
-\i (00:50:44) zoom out 2003.91 658.20
-\i (00:50:44) trapsize 417
-\i (00:50:44) zoom out 1 
-\i (00:50:44) setwindow pcb
-\i (00:50:44) zoom out 2003.90 658.19
-\i (00:50:44) trapsize 834
-\i (00:50:45) zoom in 1 
-\i (00:50:45) setwindow pcb
-\i (00:50:45) zoom in 2222.32 643.19
-\i (00:50:45) trapsize 417
-\i (00:50:45) zoom in 1 
-\i (00:50:45) setwindow pcb
-\i (00:50:45) zoom in 2238.99 630.68
-\i (00:50:45) trapsize 208
-\i (00:50:46) zoom out 1 
-\i (00:50:46) setwindow pcb
-\i (00:50:46) zoom out 2189.38 649.02
-\i (00:50:46) trapsize 417
-\i (00:50:46) zoom out 1 
-\i (00:50:46) setwindow pcb
-\i (00:50:46) zoom out 2189.38 649.03
-\i (00:50:46) trapsize 834
-\i (00:50:47) zoom in 1 
-\i (00:50:47) setwindow pcb
-\i (00:50:47) zoom in 2282.76 594.00
-\i (00:50:47) trapsize 417
-\i (00:53:18) xNet '!' St_Boot0 
-\i (00:53:18) xname_flush '!' 
-\i (00:53:19) xNet T_Jrst 
-\i (00:53:19) xname_flush 
-\i (00:53:19) trapsize 278
-\i (00:53:23) xNet T_Jrst 
-\i (00:53:23) xname_flush 
-\i (00:53:23) trapsize 278
-\i (00:59:24) xNet '!' T_Jrst 
-\i (00:59:24) xname_flush '!' 
-\i (00:59:24) xrefdes R19 
-\i (00:59:24) xname_flush 
-\i (00:59:24) trapsize 195
-\i (00:59:28) zoom out 1 
-\i (00:59:28) setwindow pcb
-\i (00:59:28) zoom out 1031.01 59.78
-\i (00:59:28) trapsize 390
-\i (00:59:28) zoom out 1 
-\i (00:59:28) setwindow pcb
-\i (00:59:28) zoom out 1031.80 58.23
-\i (00:59:28) trapsize 780
-\i (00:59:28) zoom out 1 
-\i (00:59:28) setwindow pcb
-\i (00:59:28) zoom out 1033.35 51.98
-\i (00:59:28) trapsize 1561
-\i (00:59:29) zoom in 1 
-\i (00:59:29) setwindow pcb
-\i (00:59:29) zoom in 1164.46 89.43
-\i (00:59:29) trapsize 780
-\i (00:59:29) zoom in 1 
-\i (00:59:29) setwindow pcb
-\i (00:59:29) zoom in 1164.46 89.44
-\i (00:59:29) trapsize 390
-\i (01:03:46) xrefdes '!' R19 
-\i (01:03:46) xname_flush '!' 
-\i (08:06:33) exit 
-\e (08:06:33) Do you want to save the changes you made to st-link-v2_pro.brd?
-\i (08:06:34) fillin no 
-\t (08:06:34)     Journal end - Thu Dec  7 18:09:56 2023
+\t (00:00:08) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Sat Dec  9 13:19:16 2023
+\t (00:00:08)         Host=HEROZHOU User=59427 Pid=21716 CPUs=12
+\t (00:00:08) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:08) 
+   (00:00:09) Loading axlcore.cxt 
+\t (00:00:10) Opening existing design...
+\d (00:00:10) Design opened: F:/ST-LINK-V2/Hardware/allegro/st-link-v2_pro.brd
+\i (00:00:11) trapsize 1454
+\i (00:00:11) trapsize 1516
+\i (00:00:11) trapsize 1521
+\i (00:00:11) trapsize 1521
+\t (00:00:11) > Sending response DoneOpenBoard
+\i (00:00:12) generaledit 
+\i (00:18:28) trl altium2pcb 
+\i (00:18:28) helpcmd C:/Users/59427/AppData/Local/Temp/#Taaaaaf21716.tmp 
+\w (00:18:28) Warning: Application needs to be launched from empty database with default layers.
+\i (00:18:34) fillin confirm
+   (00:18:34) Loading translators.cxt 
+   (00:18:34) Loading toolbox.cxt 
+   (00:18:34) Initializing toolbox...
+\i (00:18:34) generaledit 
+\i (00:18:39) new 
+\e (00:18:39) Do you want to save the changes you made to st-link-v2_pro.brd?
+\i (00:18:44) fillin no 
+\i (00:20:02) newdrawfillin "pakge.brd" "Board"
+\t (00:20:02)     Journal end - Sat Dec  9 13:39:10 2023
