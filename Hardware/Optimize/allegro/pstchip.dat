@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Nov-26-2023 at 21:39:42}
+{ Using PSTWRITER 17.4.0 d001Dec-12-2023 at 18:02:41}
 primitive 'CAP_20PF_50V_NP0_0402_CAPC100X50X55L25N_20PF,50V';
   pin
     '1':
@@ -60,7 +60,7 @@ primitive 'CAP_1UF_25V_X7R_0603_CAPC160X80X90L30N_1UF,25V';
     VALUE='1uF,25V';
   end_body;
 end_primitive;
-primitive 'CAP_1NF_50V_X7R_0402_CAPC100X50X55L25N_1NF,50V';
+primitive 'CAP_1NF_50V_X7R_0402_CAPC100X50X55L25N_1NF,50V(NC)';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -72,7 +72,7 @@ primitive 'CAP_1NF_50V_X7R_0402_CAPC100X50X55L25N_1NF,50V';
   body
     PART_NAME='CAP_1nF_50V_X7R_0402';
     JEDEC_TYPE='CAPC100X50X55L25N';
-    VALUE='1nF,50V';
+    VALUE='1nF,50V(NC)';
   end_body;
 end_primitive;
 primitive 'DIODE_1N4007WS_50V_1A_SOD-323_SOD265X130X110L32X32N_1N4007WS';
@@ -105,19 +105,19 @@ primitive 'TVS_S_SMF5.0A_5V_SOD-123FL_SODFL370X180X135L60_50X100N_SMF5.0A';
     VALUE='SMF5.0A';
   end_body;
 end_primitive;
-primitive 'ESD_B_KLXES15AAA1_5V_0402_DIONDFN2_100X50X40L32X37N_KLXES15AAA1';
+primitive 'ESD_B_TVSS5VCES_5V_SOD-523_SODFL160X80X70L20X30N_TVSS5VCES-02GP-J';
   pin
-    '1':
-      PIN_NUMBER='(1)';
+    'A':
+      PIN_NUMBER='(A)';
       PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
+    'C':
+      PIN_NUMBER='(C)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='ESD_B_KLXES15AAA1_5V_0402';
-    JEDEC_TYPE='DIONDFN2_100X50X40L32X37N';
-    VALUE='KLXES15AAA1';
+    PART_NAME='ESD_B_TVSS5VCES_5V_SOD-523';
+    JEDEC_TYPE='SODFL160X80X70L20X30N';
+    VALUE='TVSS5VCES-02GP-J';
   end_body;
 end_primitive;
 primitive 'LED_RED_0603_LEDC160X80X70L30N_RED_LED';
@@ -238,6 +238,48 @@ primitive 'HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P';
     VALUE='2x2.54P';
   end_body;
 end_primitive;
+primitive 'HEADER_3X1_2.54P_HEADER_3X1_2P54_4X2.54P';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER_3X1_2.54P';
+    JEDEC_TYPE='HEADER_3X1_2P54';
+    VALUE='4x2.54P';
+  end_body;
+end_primitive;
+primitive 'HEADER_5X1_2.54P_HDRV5W64P254_5X1_1270X254H860_5X2.54P';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER_5X1_2.54P';
+    JEDEC_TYPE='HDRV5W64P254_5X1_1270X254H860';
+    VALUE='5x2.54P';
+  end_body;
+end_primitive;
 primitive 'HEADER_6X1_2.54P_HEADER_6X1_2P54_6X2.54P';
   pin
     '1':
@@ -284,21 +326,6 @@ primitive 'HEADER_4X1_2.54P_HEADER_4X1_2P54_4X2.54P';
     PART_NAME='HEADER_4X1_2.54P';
     JEDEC_TYPE='HEADER_4X1_2P54';
     VALUE='4x2.54P';
-  end_body;
-end_primitive;
-primitive 'HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P(NC)';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='HEADER_2X1_2.54P';
-    JEDEC_TYPE='HEADER_2X1_2P54';
-    VALUE='2x2.54P(NC)';
   end_body;
 end_primitive;
 primitive 'HEADER_V_4X2_2.54P_HDRV8W64P254_4X2_1016X502H838_P2.54X4X2';
@@ -352,7 +379,7 @@ primitive 'TR_NPN_SS8050_25V_1.5A_SOT-23_SOT23-3P95_240X110L53X44N_SS8050';
     VALUE='SS8050';
   end_body;
 end_primitive;
-primitive 'RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%';
+primitive 'RES_100K_5%_0402_RESC100X50X40L25N_100K,5%';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -362,9 +389,24 @@ primitive 'RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='RES_4.7k_5%_0402';
+    PART_NAME='RES_100k_5%_0402';
     JEDEC_TYPE='RESC100X50X40L25N';
-    VALUE='4.7k,5%';
+    VALUE='100k,5%';
+  end_body;
+end_primitive;
+primitive 'RES_10K_5%_0402_RESC100X50X40L25N_10K,5%(NC)';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RES_10k_5%_0402';
+    JEDEC_TYPE='RESC100X50X40L25N';
+    VALUE='10k,5%(NC)';
   end_body;
 end_primitive;
 primitive 'RES_0R_5%_0402_RESC100X50X40L25N_0R,5%';
@@ -382,7 +424,7 @@ primitive 'RES_0R_5%_0402_RESC100X50X40L25N_0R,5%';
     VALUE='0R,5%';
   end_body;
 end_primitive;
-primitive 'RES_2.7K_5%_0402_RESC100X50X40L25N_2.7K,5%';
+primitive 'RES_36K_5%_0402_RESC100X50X40L25N_36K,5%';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -392,9 +434,9 @@ primitive 'RES_2.7K_5%_0402_RESC100X50X40L25N_2.7K,5%';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='RES_2.7k_5%_0402';
+    PART_NAME='RES_36k_5%_0402';
     JEDEC_TYPE='RESC100X50X40L25N';
-    VALUE='2.7k,5%';
+    VALUE='36k,5%';
   end_body;
 end_primitive;
 primitive 'RES_10K_5%_0402_RESC100X50X40L25N_10K,5%';
@@ -412,36 +454,6 @@ primitive 'RES_10K_5%_0402_RESC100X50X40L25N_10K,5%';
     VALUE='10k,5%';
   end_body;
 end_primitive;
-primitive 'RES_100R_5%_0402_RESC100X50X40L25N_100R,5%';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RES_100R_5%_0402';
-    JEDEC_TYPE='RESC100X50X40L25N';
-    VALUE='100R,5%';
-  end_body;
-end_primitive;
-primitive 'RES_36K_5%_0402_RESC100X50X40L25N_36K,5%';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RES_36k_5%_0402';
-    JEDEC_TYPE='RESC100X50X40L25N';
-    VALUE='36k,5%';
-  end_body;
-end_primitive;
 primitive 'RES_1.5K_5%_0402_RESC100X50X40L25N_1.5K,5%';
   pin
     '1':
@@ -457,7 +469,7 @@ primitive 'RES_1.5K_5%_0402_RESC100X50X40L25N_1.5K,5%';
     VALUE='1.5k,5%';
   end_body;
 end_primitive;
-primitive 'RES_100K_5%_0402_RESC100X50X40L25N_100K,5%';
+primitive 'RES_100R_5%_0402_RESC100X50X40L25N_100R,5%';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -467,12 +479,12 @@ primitive 'RES_100K_5%_0402_RESC100X50X40L25N_100K,5%';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='RES_100k_5%_0402';
+    PART_NAME='RES_100R_5%_0402';
     JEDEC_TYPE='RESC100X50X40L25N';
-    VALUE='100k,5%';
+    VALUE='100R,5%';
   end_body;
 end_primitive;
-primitive 'RES_22R_5%_0402_RESC100X50X40L25N_22R,5%';
+primitive 'RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -482,12 +494,12 @@ primitive 'RES_22R_5%_0402_RESC100X50X40L25N_22R,5%';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='RES_22R_5%_0402';
+    PART_NAME='RES_4.7k_5%_0402';
     JEDEC_TYPE='RESC100X50X40L25N';
-    VALUE='22R,5%';
+    VALUE='4.7k,5%';
   end_body;
 end_primitive;
-primitive 'RES_5.1K_5%_0402_RESC100X50X40L25N_5.1K,5%';
+primitive 'RES_0R_5%_0402_RESC100X50X40L25N_0R,5%(NC)';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -497,9 +509,24 @@ primitive 'RES_5.1K_5%_0402_RESC100X50X40L25N_5.1K,5%';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='RES_5.1k_5%_0402';
+    PART_NAME='RES_0R_5%_0402';
     JEDEC_TYPE='RESC100X50X40L25N';
-    VALUE='5.1k,5%';
+    VALUE='0R,5%(NC)';
+  end_body;
+end_primitive;
+primitive 'RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC)';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RES_4.7k_5%_0402';
+    JEDEC_TYPE='RESC100X50X40L25N';
+    VALUE='4.7k,5%(NC)';
   end_body;
 end_primitive;
 primitive 'RES_1K_5%_0603_RESC160X80X55L30N_1K,5%';
@@ -517,6 +544,21 @@ primitive 'RES_1K_5%_0603_RESC160X80X55L30N_1K,5%';
     VALUE='1k,5%';
   end_body;
 end_primitive;
+primitive 'RES_5.1K_5%_0402_RESC100X50X40L25N_5.1K,5%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RES_5.1k_5%_0402';
+    JEDEC_TYPE='RESC100X50X40L25N';
+    VALUE='5.1k,5%';
+  end_body;
+end_primitive;
 primitive 'SCREW_HOLE_M1.2_MTGP240H140_SCREW_HOLE_M1.2';
   pin
     'TP':
@@ -527,6 +569,27 @@ primitive 'SCREW_HOLE_M1.2_MTGP240H140_SCREW_HOLE_M1.2';
     PART_NAME='Screw_Hole_M1.2';
     JEDEC_TYPE='MTGP240H140';
     VALUE='Screw_Hole_M1.2';
+  end_body;
+end_primitive;
+primitive 'SW_ PUSHBUTTON_4P_2V2_SW_SMD_4P_5D1X5D1_TS-1187A-B-A-B';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SW_ PUSHBUTTON_4P_2V2';
+    JEDEC_TYPE='SW_SMD_4P_5D1x5D1';
+    VALUE='TS-1187A-B-A-B';
   end_body;
 end_primitive;
 primitive 'RT9013-33GB_SOT23-5_RT9013-33GB';
@@ -603,7 +666,7 @@ primitive 'STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
       BIDIRECTIONAL='TRUE';
-    'PB2':
+    'PB2/BOOT1':
       PIN_NUMBER='(20,0)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
@@ -663,27 +726,27 @@ primitive 'STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
       BIDIRECTIONAL='TRUE';
-    'PA13':
+    'JTMS/SWDIO':
       PIN_NUMBER='(34,0)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
       BIDIRECTIONAL='TRUE';
-    'PA14':
+    'JTCK/SWCLK':
       PIN_NUMBER='(37,0)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
       BIDIRECTIONAL='TRUE';
-    'PA15':
+    'PA15/JTDI':
       PIN_NUMBER='(38,0)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
       BIDIRECTIONAL='TRUE';
-    'PB3':
+    'PB3/JTDO':
       PIN_NUMBER='(39,0)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
       BIDIRECTIONAL='TRUE';
-    'PB4':
+    'PB4/JNTRST':
       PIN_NUMBER='(40,0)';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
