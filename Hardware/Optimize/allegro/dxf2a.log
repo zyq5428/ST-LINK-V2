@@ -1,0 +1,39 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+NOTE: Replacing illegal character * with X in *D1.
+NOTE: Replacing illegal character * with X in *D2.
+NOTE: Replacing illegal character * with X in *D3.
+NOTE: Replacing illegal character * with X in *D4.
+NOTE: Replacing illegal character * with X in *D5.
+NOTE: Replacing illegal character * with X in *D1.
+NOTE: Replacing illegal character * with X in *D2.
+NOTE: Replacing illegal character * with X in *D3.
+NOTE: Replacing illegal character * with X in *D4.
+NOTE: Replacing illegal character * with X in *D5.
+done.
+NOTE: Ignoring unsupported element POINT on line 2702.
+NOTE: Ignoring unsupported element POINT on line 2724.
+NOTE: Ignoring unsupported element POINT on line 2746.
+NOTE: Ignoring unsupported element POINT on line 3020.
+NOTE: Ignoring unsupported element POINT on line 3042.
+NOTE: Ignoring unsupported element POINT on line 3064.
+NOTE: Ignoring unsupported element POINT on line 3268.
+NOTE: Ignoring unsupported element POINT on line 3290.
+NOTE: Ignoring unsupported element POINT on line 3558.
+NOTE: Ignoring unsupported element POINT on line 3580.
+NOTE: Ignoring unsupported element POINT on line 3602.
+NOTE: Ignoring unsupported element POINT on line 3876.
+NOTE: Ignoring unsupported element POINT on line 3898.
+NOTE: Ignoring unsupported element POINT on line 3920.
+Layer conversion file: E:/st-link-v2/2D/ST-LINK-V2-1_l.cnv
+DXF file: E:/st-link-v2/2D/ST-LINK-V2-1.dxf
+BRD file: e:/st-link-v2/hardware/optimize/allegro/#Taaaaaf12752.tmp
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILLIMETERS
+Design precision: 4
+dxf2a complete.

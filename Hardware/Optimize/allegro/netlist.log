@@ -1,13 +1,5 @@
-{ Using PSTWRITER 17.4.0 d001Dec-12-2023 at 18:02:41 }
+{ Using PSTWRITER 17.4.0 d001Dec-13-2023 at 18:16:23 }
 
-#1 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#A1B12" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
-#2 WARNING(ORCAP-36042): Pin "VBUS" is renamed to "VBUS#A4B9" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
-#3 WARNING(ORCAP-36042): Pin "SHELL" is renamed to "SHELL#1" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
-#4 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#B1A12" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
-#5 WARNING(ORCAP-36042): Pin "VBUS" is renamed to "VBUS#B4A9" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
-#6 WARNING(ORCAP-36042): Pin "SHELL" is renamed to "SHELL#2" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
-#7 WARNING(ORCAP-36042): Pin "SHELL" is renamed to "SHELL#3" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
-#8 WARNING(ORCAP-36042): Pin "SHELL" is renamed to "SHELL#4" as visible power pin of same name already exists in Package HC-TYPE-C-16P-01A-O , J1: ST-Link, ST-Link-V2 (2.00, 0.70).
 INFO(ORCAP-36080): Scanning netlist files ...
 
 Loading... E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\pstchip.dat

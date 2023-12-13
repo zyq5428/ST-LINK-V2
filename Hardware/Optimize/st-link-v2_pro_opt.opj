@@ -1,6 +1,6 @@
 (ExpressProject "ST-Link-V2"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[12/12/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[12/13/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -19,7 +19,7 @@
       (DisplayName ".\st-link-v2_pro_opt.DSN"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    ("Allegro Netlist Output Board File" ".\allegro\st-link-v2_pro.brd")
+    ("Allegro Netlist Output Board File" ".\allegro\st-link-v2_pro_opt.brd")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
     (ANNOTATE_Action "0")
@@ -63,7 +63,12 @@
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
     (Board_sim_option "VHDL_flow"))
-  (Folder "Layout")
+  (Folder "Layout"
+    (File ".\allegro\st-link-v2_pro_opt.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\st-link-v2_pro_opt.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -91,16 +96,16 @@
   (Folder "Logs"
     (File ".\allegro\netlist.log"
       (Type "Log File")
-      (LogFile "f:\st-link-v2\hardware\allegro\netlist.log"))
+      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\netlist.log"))
     (File ".\allegro\netrev.lst"
       (Type "Log File")
-      (LogFile "f:\st-link-v2\hardware\allegro\netrev.lst"))
+      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\netrev.lst"))
     (File ".\allegro\eco.txt"
       (Type "Log File")
-      (LogFile "f:\st-link-v2\hardware\allegro\eco.txt"))
+      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\eco.txt"))
     (File ".\allegro\genfeed.log"
       (Type "Log File")
-      (LogFile "f:\st-link-v2\hardware\allegro\genfeed.log")))
+      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\genfeed.log")))
   (PartMRUSelector
     (ESD_B_TVSS5VCES_5V_SOD-523
       (FullPartName "ESD_B_TVSS5VCES_5V_SOD-523.Normal")
@@ -232,8 +237,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 769")
-        (Scroll "-354 -5")
-        (Zoom "46")
+        (Scroll "0 558")
+        (Zoom "184")
         (Occurrence "/"))
       (Path "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\ST-LINK-V2_PRO_OPT.DSN")
       (Schematic "ST-Link")

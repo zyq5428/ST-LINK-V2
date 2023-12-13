@@ -1,0 +1,67 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "R40",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126218@private.\\res_0r_5%_0402.normal\\(chips)",
+			"Logical" : "R40",
+			"Physical" : null
+		},
+		{
+			"Name" : "R41",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126403@private.\\res_4.7k_5%_0402.normal\\(chips)",
+			"Logical" : "R41",
+			"Physical" : null
+		},
+		{
+			"Name" : "R42",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126429@private.\\res_4.7k_5%_0402.normal\\(chips)",
+			"Logical" : "R42",
+			"Physical" : null
+		}
+	],
+	"Net" : [],
+	"Connection" : [
+		{
+			"Name" : "R40.1",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126218@private.\\res_0r_5%_0402.normal\\(chips):\\1\\",
+			"Logical" : "GND",
+			"Physical" : null
+		},
+		{
+			"Name" : "R40.2",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126218@private.\\res_0r_5%_0402.normal\\(chips):\\2\\",
+			"Logical" : "N115138",
+			"Physical" : null
+		},
+		{
+			"Name" : "R41.1",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126403@private.\\res_4.7k_5%_0402.normal\\(chips):\\1\\",
+			"Logical" : "3V3_ST",
+			"Physical" : null
+		},
+		{
+			"Name" : "R41.2",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126403@private.\\res_4.7k_5%_0402.normal\\(chips):\\2\\",
+			"Logical" : "I2C1_SCL",
+			"Physical" : null
+		},
+		{
+			"Name" : "R42.1",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126429@private.\\res_4.7k_5%_0402.normal\\(chips):\\1\\",
+			"Logical" : "3V3_ST",
+			"Physical" : null
+		},
+		{
+			"Name" : "R42.2",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126429@private.\\res_4.7k_5%_0402.normal\\(chips):\\2\\",
+			"Logical" : "I2C1_SDA",
+			"Physical" : null
+		}
+	]
+}
