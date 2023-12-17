@@ -238,8 +238,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1468 28 1065")
-        (Scroll "714 0")
-        (Zoom "130")
+        (Scroll "3893 1333")
+        (Zoom "264")
         (Occurrence "/"))
       (Path "F:\ST-LINK-V2\HARDWARE\OPTIMIZE\ST-LINK-V2_PRO_OPT.DSN")
       (Schematic "ST-Link")

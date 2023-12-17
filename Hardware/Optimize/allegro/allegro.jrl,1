@@ -1,244 +1,40 @@
 \t (00:00:03) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Thu Dec 14 22:28:23 2023
-\t (00:00:03)         Host=HEROZHOU User=59427 Pid=4404 CPUs=12
+\t (00:00:03)     Journal start - Sat Dec 16 23:03:28 2023
+\t (00:00:03)         Host=HEROZHOU User=59427 Pid=4616 CPUs=12
 \t (00:00:03) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\ST-LINK-V2\Hardware\Optimize\allegro\st-link-v2_pro_opt.brd
 \t (00:00:03) 
-   (00:00:04) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\i (00:00:09) fillin yes 
-\d (00:00:09) Design opened: F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd
-\i (00:00:10) trapsize 2069
-\i (00:00:10) trapsize 2157
-\i (00:00:10) trapsize 2165
-\i (00:00:10) trapsize 2165
-\t (00:00:10) > Sending response DoneOpenBoard
-\i (00:00:10) generaledit 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:06) Design opened: F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd
+\i (00:00:06) trapsize 496
+\i (00:00:06) trapsize 505
+\i (00:00:07) trapsize 501
+\i (00:00:07) trapsize 510
+\t (00:00:07) > Sending response DoneOpenBoard
+\i (00:00:07) generaledit 
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 666.27 816.06
+\i (00:00:10) trapsize 255
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 453.72 800.77
+\i (00:00:11) trapsize 510
 \i (00:00:12) zoom in 1 
 \i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in 265.88 723.40
-\i (00:00:12) trapsize 1083
-\i (00:00:12) zoom in 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in 265.88 725.57
-\i (00:00:12) trapsize 541
-\i (00:00:12) zoom in 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in 274.54 738.56
-\i (00:00:12) trapsize 271
-\i (00:00:12) zoom in 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in 274.54 738.56
-\i (00:00:12) trapsize 135
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 277.79 743.70
-\i (00:00:13) trapsize 271
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 277.80 743.71
-\i (00:00:13) trapsize 541
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 278.88 745.88
-\i (00:00:13) trapsize 1083
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 278.88 748.05
-\i (00:00:13) trapsize 2165
+\i (00:00:12) zoom in 411.90 770.20
+\i (00:00:12) trapsize 255
 \i (00:00:13) zoom in 1 
 \i (00:00:13) setwindow pcb
-\i (00:00:13) zoom in 642.65 1155.11
-\i (00:00:13) trapsize 1083
+\i (00:00:13) zoom in 361.95 692.21
+\i (00:00:13) trapsize 127
 \i (00:00:13) zoom in 1 
 \i (00:00:13) setwindow pcb
-\i (00:00:13) zoom in 642.65 1159.44
-\i (00:00:13) trapsize 541
-\i (00:00:13) zoom in 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom in 642.65 1159.45
-\i (00:00:13) trapsize 271
-\i (00:00:14) zoom out 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom out 638.33 1156.75
-\i (00:00:14) trapsize 541
-\i (00:00:14) zoom out 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom out 632.91 1147.00
-\i (00:00:14) trapsize 1083
-\i (00:00:15) zoom in 1 
+\i (00:00:13) zoom in 361.18 692.47
+\i (00:00:13) trapsize 64
+\i (00:00:15) zoom out 1 
 \i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 708.69 967.28
-\i (00:00:15) trapsize 541
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 715.19 938.05
-\i (00:00:15) trapsize 271
-\i (00:00:16) zoom out 1 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) zoom out 708.70 949.96
-\i (00:00:16) trapsize 541
-\i (00:00:17) zoom out 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom out 708.69 949.96
-\i (00:00:17) trapsize 1083
-\i (00:00:17) zoom out 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom out 732.51 965.11
-\i (00:00:17) trapsize 2165
-\i (00:00:49) zoom in 1 
-\i (00:00:49) setwindow pcb
-\i (00:00:49) zoom in -154.16 558.05
-\i (00:00:49) trapsize 1083
-\i (00:00:49) zoom in 1 
-\i (00:00:49) setwindow pcb
-\i (00:00:49) zoom in 40.71 568.88
-\i (00:00:49) trapsize 541
-\i (00:00:49) zoom out 1 
-\i (00:00:49) setwindow pcb
-\i (00:00:49) zoom out 67.78 637.09
-\i (00:00:49) trapsize 1083
-\i (00:00:52) pop dyn_option_select 'Application Mode@:@Placement Edit' 
-\i (00:00:52) placementedit 
-\i (00:00:55) move 
-\t (00:00:55) Select element(s) to move.
-\i (00:00:57) zoom out 1 
-\i (00:00:57) setwindow pcb
-\i (00:00:57) zoom out 435.87 756.18
-\i (00:00:57) trapsize 2165
-\i (00:00:58) zoom in 1 
-\i (00:00:58) setwindow pcb
-\i (00:00:58) zoom in 443.44 873.10
-\i (00:00:58) trapsize 1083
-\i (00:00:59) zoom in 1 
-\i (00:00:59) setwindow pcb
-\i (00:00:59) zoom in 1296.55 899.08
-\i (00:00:59) trapsize 541
-\i (00:00:59) zoom in 1 
-\i (00:00:59) setwindow pcb
-\i (00:00:59) zoom in 1255.41 896.92
-\i (00:00:59) trapsize 271
-\i (00:01:00) zoom out 1 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom out 1249.46 855.79
-\i (00:01:00) trapsize 541
-\i (00:01:01) zoom out 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom out 1133.61 891.51
-\i (00:01:01) trapsize 1083
-\i (00:01:10) color192 
-\i (00:01:13) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
-\i (00:01:20) QtSignal CVDColorTable CVDColorButton1:1 clicked
-\i (00:01:25) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Gnd" Net 1
-\i (00:01:25) QtSignal CVDNetSplitter CVDNetTable dataChanged 6 0
-\i (00:01:25) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:26) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] Gnd" Net 1
-\i (00:01:26) QtSignal CVDNetSplitter CVDNetTable dataChanged 6 0
-\i (00:01:26) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:26) QtSignal CVDNetTable CVDNetTableDelegate clickedColor "[Net] Gnd" Net
-\i (00:01:26) QtSignal CVDNetSplitter CVDNetTable dataChanged 6 0
-\i (00:01:26) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:39) QtSignal CVDColorTable CVDColorButton5:16 clicked
-\i (00:01:41) QtSignal CVDNetTable CVDNetTableDelegate clickedBox "[Net] 3V3_St" Net 1
-\i (00:01:41) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
-\i (00:01:41) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:42) QtSignal CVDNetTable CVDNetTableDelegate clickedColor "[Net] 3V3_St" Net
-\i (00:01:42) QtSignal CVDNetSplitter CVDNetTable dataChanged 0 0
-\i (00:01:42) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:51) QtSignal CVDColorTable CVDColorButton3:20 clicked
-\i (00:01:52) QtSignal CVDNetTable CVDNetTableDelegate clickedColor "[Net] U5v" Net
-\i (00:01:52) QtSignal CVDNetSplitter CVDNetTable dataChanged 63 0
-\i (00:01:52) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:54) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:01:55) QtSignal CVDNetSplitter CVDNetTable selectionChanged
-\i (00:02:13) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:02:16) zoom out 1 
-\i (00:02:16) setwindow pcb
-\i (00:02:16) zoom out 940.91 649.00
-\i (00:02:16) trapsize 2165
-\i (00:02:16) zoom in 1 
-\i (00:02:16) setwindow pcb
-\i (00:02:16) zoom in 365.50 926.15
-\i (00:02:16) trapsize 1083
-\i (00:02:18) zoom in 1 
-\i (00:02:18) setwindow pcb
-\i (00:02:18) zoom in 317.86 627.35
-\i (00:02:18) trapsize 541
-\i (00:02:18) zoom in 1 
-\i (00:02:18) setwindow pcb
-\i (00:02:18) zoom in 296.21 623.02
-\i (00:02:18) trapsize 271
-\i (00:02:19) zoom out 1 
-\i (00:02:19) setwindow pcb
-\i (00:02:19) zoom out 296.76 691.77
-\i (00:02:19) trapsize 541
-\i (00:02:20) zoom out 1 
-\i (00:02:20) setwindow pcb
-\i (00:02:20) zoom out 422.34 606.24
-\i (00:02:20) trapsize 1083
-\i (00:02:21) zoom out 1 
-\i (00:02:21) setwindow pcb
-\i (00:02:21) zoom out 654.02 571.59
-\i (00:02:21) trapsize 2165
-\i (00:02:29) zoom in 1 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) zoom in 841.85 835.74
-\i (00:02:29) trapsize 1083
-\i (00:02:29) zoom in 1 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) zoom in 846.19 848.74
-\i (00:02:29) trapsize 541
-\i (00:02:29) zoom out 1 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) zoom out 1065.96 877.97
-\i (00:02:29) trapsize 1083
-\i (00:02:30) zoom out 1 
-\i (00:02:30) setwindow pcb
-\i (00:02:30) zoom out 1039.98 849.82
-\i (00:02:30) trapsize 2165
-\i (00:02:31) zoom in 1 
-\i (00:02:31) setwindow pcb
-\i (00:02:31) zoom in 902.48 784.87
-\i (00:02:31) trapsize 1083
-\i (00:02:31) zoom in 1 
-\i (00:02:31) setwindow pcb
-\i (00:02:31) zoom in 908.97 780.54
-\i (00:02:31) trapsize 541
-\i (00:02:33) zoom in 1 
-\i (00:02:33) setwindow pcb
-\i (00:02:33) zoom in 991.26 855.24
-\i (00:02:33) trapsize 271
-\i (00:02:33) zoom out 1 
-\i (00:02:33) setwindow pcb
-\i (00:02:33) zoom out 1020.49 895.30
-\i (00:02:33) trapsize 541
-\i (00:02:33) zoom out 1 
-\i (00:02:33) setwindow pcb
-\i (00:02:33) zoom out 1022.65 899.64
-\i (00:02:33) trapsize 1083
-\i (00:02:39) save 
-\i (00:02:40) fillin yes 
-\e (00:02:40) File "st-link-v2_pro_opt.brd" is being edited by user "Administrator" on date "Wed Dec 13 18:09:47 2023" on system "LTSC-20211101AY".  Save design to another name or contact user to remove their lock.
-\i (00:02:43) fillin confirm
-\i (00:02:43) placementedit 
-\i (00:02:51) save 
-\i (00:02:52) fillin yes 
-\t (00:02:52) > Sending response DoneOpenBoard
-\i (00:02:52) placementedit 
-\i (00:03:02) exit 
-\t (00:03:04)     Journal end - Thu Dec 14 22:31:23 2023
+\i (00:00:15) zoom out 392.15 738.09
+\i (00:00:15) trapsize 127
+\i (01:17:04) exit 
+\t (01:17:06)     Journal end - Sun Dec 17 00:20:31 2023
