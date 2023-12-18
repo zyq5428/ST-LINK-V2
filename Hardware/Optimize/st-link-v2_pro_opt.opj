@@ -215,7 +215,7 @@
       (FullPartName "TVS_S_SMF5.0A_5V_SOD-123.Normal")
       (LibraryName "F:\CADENCE_LEARN\LIB\ORCAD\PRIVATE.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "59427")
+  (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory
      "D:\Cadence\Cadence\SPB_17.4\tools\capture\library")
   (GlobalState
@@ -232,16 +232,16 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1049"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 747"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 3194 28 1071")
-        (Scroll "0 539")
-        (Zoom "264")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 28 769")
+        (Scroll "106 680")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "F:\ST-LINK-V2\HARDWARE\OPTIMIZE\ST-LINK-V2_PRO_OPT.DSN")
+      (Path "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\ST-LINK-V2_PRO_OPT.DSN")
       (Schematic "ST-Link")
       (Page "ST-Link-V2")))
   (ISPCBBASICLICENSE "false"))

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : st-link-v2_pro_opt.brd                        )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Wed Dec 13 14:52:21 2023                      )
+(    Date/Time        : Wed Dec 13 15:26:45 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  87
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
