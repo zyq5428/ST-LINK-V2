@@ -3,587 +3,59 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
+|                                                    Wed Dec 13 18:16:24 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  3V3_ST       pins ADDED TO this new net
-                                 C4.1           C5.1           C12.1          
-                                 C13.1          C14.1          C15.1          
-                                 C16.1          D9.A           J2.1           
-                                 J4.2           J5.1           J6.1           
-                                 J7.1           J8.1           Q1.3           
-                                 R2.1           R6.1           R21.1          
-                                 R22.1          R23.1          U1.5           
-                                 U2.1           U2.9           U2.24          
-                                 U2.36          U2.48          
+  3V3_ST       pins ADDED TO this existing net (pins not previously on any net)
+                                 R41.1                          
+                                 R42.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC1_IN1     pins ADDED TO this new net
-                                 J7.2           U2.11          
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 R40.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC1_IN4     pins ADDED TO this new net
-                                 J7.3           U2.14          
+  I2C1_SCL     pins ADDED TO this existing net (pins not previously on any net)
+                                 R41.2                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC1_IN9     pins ADDED TO this new net
-                                 J7.4           U2.19          
+  I2C1_SDA     pins ADDED TO this existing net (pins not previously on any net)
+                                 R42.2                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  AIN_1        pins ADDED TO this new net
-                                 R21.2          R24.1          U2.10          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  EXT11        pins ADDED TO this new net
-                                 J7.5           R29.2          U2.22          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins ADDED TO this new net
-                                 C1.1           C2.2           C3.2           
-                                 C4.2           C5.2           C6.1           
-                                 C7.2           C8.2           C9.1           
-                                 C10.1          C11.1          C12.2          
-                                 C13.2          C14.2          C15.2          
-                                 C16.2          C17.2          D2.A           
-                                 D3.A           D4.A           D5.C           
-                                 D6.C           D7.C           D8.C           
-                                 J1.1           J1.2           J1.3           
-                                 J1.4           J1.A1B12       J1.B1A12       
-                                 J2.3           J3.2           J4.4           
-                                 J5.6           J6.4           J7.6           
-                                 J8.3           R3.1           R4.1           
-                                 R5.1           R10.1          R12.2          
-                                 R13.1          R24.2          R25.2          
-                                 R26.2          SH1.1          SH2.1          
-                                 SH3.1          SH4.1          SW1.1          
-                                 SW1.2          SW2.1          SW2.2          
+  N115138      pins ADDED TO this existing net (pins not previously on any net)
+                                 R40.2                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
+|                                                    Wed Dec 13 18:16:24 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
+|    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 U1.2           U2.8           U2.23          
-                                 U2.35          U2.47          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  I2C1_SCL     pins ADDED TO this new net
-                                 J5.4           U2.45          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  I2C1_SDA     pins ADDED TO this new net
-                                 J5.5           U2.46          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LED_STLINK   pins ADDED TO this new net
-                                 R30.1          R36.1          U2.30          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  MCO          pins ADDED TO this new net
-                                 J10.1          R16.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N01383       pins ADDED TO this new net
-                                 Q1.2           R14.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N01643       pins ADDED TO this new net
-                                 Q1.1           R7.2           R9.1           
-                                 R12.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N02559       pins ADDED TO this new net
-                                 C2.1           C3.1           D1.C           
-                                 U1.1           U1.3           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N02991       pins ADDED TO this new net
-                                 C7.1           U1.4           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N15750       pins ADDED TO this new net
-                                 C11.2          R15.2          R16.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N18913       pins ADDED TO this new net
-                                 D8.A           R30.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N18917       pins ADDED TO this new net
-                                 D9.C           R36.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43468       pins ADDED TO this new net
-                                 J8.8           R32.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43472       pins ADDED TO this new net
-                                 J8.6           R33.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43480       pins ADDED TO this new net
+ R40                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
+ R41                 RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC) 
+ R42                 RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC) 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 J8.2           R39.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43828       pins ADDED TO this new net
-                                 J8.4           R37.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N44493       pins ADDED TO this new net
-                                 J4.5           R19.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N44516       pins ADDED TO this new net
-                                 J4.3           R18.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N44659       pins ADDED TO this new net
-                                 J9.1           R35.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N44671       pins ADDED TO this new net
-                                 J9.2           R38.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N60144       pins ADDED TO this new net
-                                 J8.5           R34.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N60172       pins ADDED TO this new net
-                                 J8.7           R31.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N62729       pins ADDED TO this new net
-                                 J1.A5          R4.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N62849       pins ADDED TO this new net
-                                 J1.B5          R5.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N105457      pins ADDED TO this new net
-                                 J4.1           R17.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N112115      pins ADDED TO this new net
-                                 R13.2          U2.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N115138      pins ADDED TO this new net
-                                 J2.2           R1.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N116586      pins ADDED TO this new net
-                                 D5.A           R6.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N120270      pins ADDED TO this new net
-                                 C17.1          R29.1          SW2.3          
-                                 SW2.4          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N120825      pins ADDED TO this new net
-                                 D6.A           R27.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N121032      pins ADDED TO this new net
-                                 D7.A           R28.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  OSC32_IN     pins ADDED TO this new net
-                                 C9.2           R10.2          U2.3           
-                                 Y2.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  OSC32_OUT    pins ADDED TO this new net
-                                 C10.2          U2.4           Y2.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  OSC_IN       pins ADDED TO this new net
-                                 C1.2           U2.5           Y1.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  OSC_OUT      pins ADDED TO this new net
-                                 C6.2           U2.6           Y1.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PA8          pins ADDED TO this new net
-                                 R15.1          U2.29          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PB4          pins ADDED TO this new net
-                                 J6.2           R27.1          U2.40          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PB5          pins ADDED TO this new net
-                                 J6.3           R28.1          U2.41          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PB10         pins ADDED TO this new net
-                                 R23.2          R26.1          U2.21          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PWR_ENN      pins ADDED TO this new net
-                                 J10.2          U2.28          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PWR_EXT      pins ADDED TO this new net
-                                 R22.2          R25.1          U2.39          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  STLINK_RX    pins ADDED TO this new net
-                                 R37.1          U2.13          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  STLINK_TX    pins ADDED TO this new net
-                                 R39.1          U2.12          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  STM_JTCK     pins ADDED TO this new net
-                                 R18.2          U2.37          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  STM_JTMS     pins ADDED TO this new net
-                                 R19.2          U2.34          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  STM_RST      pins ADDED TO this new net
-                                 C8.1           R2.2           R17.2          
-                                 SW1.3          SW1.4          U2.7           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ST_BOOT0     pins ADDED TO this new net
-                                 R1.2           U2.44          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ST_BOOT1     pins ADDED TO this new net
-                                 R3.2           U2.20          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ST_USB_N     pins ADDED TO this new net
-                                 R8.2           U2.32          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ST_USB_P     pins ADDED TO this new net
-                                 R11.2          R14.1          U2.33          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  T_JRST       pins ADDED TO this new net
-                                 R33.1          U2.18          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  T_JTCK       pins ADDED TO this new net
-                                 R34.2          U2.15          U2.26          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  T_JTDI       pins ADDED TO this new net
-                                 R38.1          U2.17          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  T_JTDO       pins ADDED TO this new net
-                                 R35.1          U2.16          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  T_JTMS       pins ADDED TO this new net
-                                 R20.2          R31.2          U2.27          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  T_SWDIO_IN   pins ADDED TO this new net
-                                 R20.1          U2.25          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  T_SWO        pins ADDED TO this new net
-                                 R32.1          U2.31          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  U5V          pins ADDED TO this new net
-                                 D1.A           D2.C           J1.A4B9        
-                                 J1.B4A9        J3.1           R7.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  USART1_RX    pins ADDED TO this new net
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 J5.3           U2.43          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  USART1_TX    pins ADDED TO this new net
-                                 J5.2           U2.42          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  USB_N        pins ADDED TO this new net
-                                 D3.C           J1.A7          J1.B7          
-                                 R8.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  USB_P        pins ADDED TO this new net
-                                 D4.C           J1.A6          J1.B6          
-                                 R11.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  USB_RENUMN   pins ADDED TO this new net
-                                 R9.2           U2.38          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- 8MHZ_20PF_SMD5032-2P_SMD5032-2P_8MHZ,10PF
- 32.768KHZ_12.5PF_SMD3215-2P_SMD3215-2P_32.768KHZ,12.5PF
- CAP_1NF_50V_X7R_0402_CAPC100X50X55L25N_1NF,50V(NC)
- CAP_1UF_25V_X7R_0603_CAPC160X80X90L30N_1UF,25V
- CAP_10UF_25V_X5R_0805_CAPC200X125X145L45N_10UF,25V
- CAP_20PF_50V_NP0_0402_CAPC100X50X55L25N_20PF,50V
- CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V
- DIODE_1N4007WS_50V_1A_SOD-323_SOD265X130X110L32X32N_1N4007WS
- ESD_B_TVSS5VCES_5V_SOD-523_SODFL160X80X70L20X30N_TVSS5VCES-02GP-J
- HC-TYPE-C-16P-01A-O_USB-C-SMD-16P_TYPE-C-16P
- HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P
- HEADER_3X1_2.54P_HEADER_3X1_2P54_4X2.54P
- HEADER_4X1_2.54P_HEADER_4X1_2P54_4X2.54P
- HEADER_5X1_2.54P_HDRV5W64P254_5X1_1270X254H860_5X2.54P
- HEADER_6X1_2.54P_HEADER_6X1_2P54_6X2.54P
- HEADER_V_4X2_2.54P_HDRV8W64P254_4X2_1016X502H838_P2.54X4X2
- LED_GREEN_0603_LEDC160X80X70L30N_GREEN_LED
- LED_RED_0603_LEDC160X80X70L30N_RED_LED
- RES_0R_5%_0402_RESC100X50X40L25N_0R,5%
- RES_0R_5%_0402_RESC100X50X40L25N_0R,5%(NC)
- RES_1.5K_5%_0402_RESC100X50X40L25N_1.5K,5%
- RES_1K_5%_0603_RESC160X80X55L30N_1K,5%
- RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%
- RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC)
- RES_5.1K_5%_0402_RESC100X50X40L25N_5.1K,5%
- RES_10K_5%_0402_RESC100X50X40L25N_10K,5%
- RES_10K_5%_0402_RESC100X50X40L25N_10K,5%(NC)
- RES_36K_5%_0402_RESC100X50X40L25N_36K,5%
- RES_100K_5%_0402_RESC100X50X40L25N_100K,5%
- RES_100R_5%_0402_RESC100X50X40L25N_100R,5%
- RT9013-33GB_SOT23-5_RT9013-33GB
- SCREW_HOLE_M1.2_MTGP240H140_SCREW_HOLE_M1.2
- STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6
- SW_ PUSHBUTTON_4P_2V2_SW_SMD_4P_5D1X5D1_TS-1187A-B-A-B
- TR_NPN_SS8050_25V_1.5A_SOT-23_SOT23-3P95_240X110L53X44N_SS8050
- TVS_S_SMF5.0A_5V_SOD-123FL_SODFL370X180X135L60_50X100N_SMF5.0A
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1                  CAP_20PF_50V_NP0_0402_CAPC100X50X55L25N_20PF,50V 
- C2                  CAP_10UF_25V_X5R_0805_CAPC200X125X145L45N_10UF,25V 
- C3                  CAP_1UF_25V_X7R_0603_CAPC160X80X90L30N_1UF,25V 
- C4                  CAP_10UF_25V_X5R_0805_CAPC200X125X145L45N_10UF,25V 
- C5                  CAP_1UF_25V_X7R_0603_CAPC160X80X90L30N_1UF,25V 
- C6                  CAP_20PF_50V_NP0_0402_CAPC100X50X55L25N_20PF,50V 
- C7                  CAP_1NF_50V_X7R_0402_CAPC100X50X55L25N_1NF,50V(NC) 
- C8                  CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V 
- C9                  CAP_20PF_50V_NP0_0402_CAPC100X50X55L25N_20PF,50V 
- C10                 CAP_20PF_50V_NP0_0402_CAPC100X50X55L25N_20PF,50V 
- C11                 CAP_20PF_50V_NP0_0402_CAPC100X50X55L25N_20PF,50V 
- C12                 CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V 
- C13                 CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V 
- C14                 CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V 
- C15                 CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V 
- C16                 CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V 
- C17                 CAP_100NF_25V_X5R_0402_CAPC100X50X55L25N_100NF,25V 
- D1                  DIODE_1N4007WS_50V_1A_SOD-323_SOD265X130X110L32X32N_1N4007WS 
- D2                  TVS_S_SMF5.0A_5V_SOD-123FL_SODFL370X180X135L60_50X100N_SMF5.0A 
- D3                  ESD_B_TVSS5VCES_5V_SOD-523_SODFL160X80X70L20X30N_TVSS5VCES-02GP-J 
- D4                  ESD_B_TVSS5VCES_5V_SOD-523_SODFL160X80X70L20X30N_TVSS5VCES-02GP-J 
- D5                  LED_RED_0603_LEDC160X80X70L30N_RED_LED 
- D6                  LED_RED_0603_LEDC160X80X70L30N_RED_LED 
- D7                  LED_GREEN_0603_LEDC160X80X70L30N_GREEN_LED 
- D8                  LED_RED_0603_LEDC160X80X70L30N_RED_LED 
- D9                  LED_GREEN_0603_LEDC160X80X70L30N_GREEN_LED 
- J1                  HC-TYPE-C-16P-01A-O_USB-C-SMD-16P_TYPE-C-16P 
- J2                  HEADER_3X1_2.54P_HEADER_3X1_2P54_4X2.54P 
- J3                  HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P 
- J4                  HEADER_5X1_2.54P_HDRV5W64P254_5X1_1270X254H860_5X2.54P 
- J5                  HEADER_6X1_2.54P_HEADER_6X1_2P54_6X2.54P 
- J6                  HEADER_4X1_2.54P_HEADER_4X1_2P54_4X2.54P 
- J7                  HEADER_6X1_2.54P_HEADER_6X1_2P54_6X2.54P 
- J8                  HEADER_V_4X2_2.54P_HDRV8W64P254_4X2_1016X502H838_P2.54X4X2 
- J9                  HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P 
- J10                 HEADER_2X1_2.54P_HEADER_2X1_2P54_2X2.54P 
- Q1                  TR_NPN_SS8050_25V_1.5A_SOT-23_SOT23-3P95_240X110L53X44N_SS8050 
- R1                  RES_100K_5%_0402_RESC100X50X40L25N_100K,5% 
- R2                  RES_100K_5%_0402_RESC100X50X40L25N_100K,5% 
- R3                  RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R4                  RES_5.1K_5%_0402_RESC100X50X40L25N_5.1K,5% 
- R5                  RES_5.1K_5%_0402_RESC100X50X40L25N_5.1K,5% 
- R6                  RES_1K_5%_0603_RESC160X80X55L30N_1K,5% 
- R7                  RES_10K_5%_0402_RESC100X50X40L25N_10K,5% 
- R8                  RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R9                  RES_100R_5%_0402_RESC100X50X40L25N_100R,5% 
- R10                 RES_10K_5%_0402_RESC100X50X40L25N_10K,5%(NC) 
- R11                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R12                 RES_36K_5%_0402_RESC100X50X40L25N_36K,5% 
- R13                 RES_10K_5%_0402_RESC100X50X40L25N_10K,5% 
- R14                 RES_1.5K_5%_0402_RESC100X50X40L25N_1.5K,5% 
- R15                 RES_100R_5%_0402_RESC100X50X40L25N_100R,5% 
- R16                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R17                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R18                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R19                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R20                 RES_100R_5%_0402_RESC100X50X40L25N_100R,5% 
- R21                 RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5% 
- R22                 RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5% 
- R23                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5%(NC) 
- R24                 RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5% 
- R25                 RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC) 
- R26                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5%(NC) 
- R27                 RES_1K_5%_0603_RESC160X80X55L30N_1K,5% 
- R28                 RES_1K_5%_0603_RESC160X80X55L30N_1K,5% 
- R29                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R30                 RES_1K_5%_0603_RESC160X80X55L30N_1K,5% 
- R31                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R32                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R33                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R34                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R35                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R36                 RES_1K_5%_0603_RESC160X80X55L30N_1K,5% 
- R37                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R38                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- R39                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 
- SH1                 SCREW_HOLE_M1.2_MTGP240H140_SCREW_HOLE_M1.2 
- SH2                 SCREW_HOLE_M1.2_MTGP240H140_SCREW_HOLE_M1.2 
- SH3                 SCREW_HOLE_M1.2_MTGP240H140_SCREW_HOLE_M1.2 
- SH4                 SCREW_HOLE_M1.2_MTGP240H140_SCREW_HOLE_M1.2 
- SW1                 SW_ PUSHBUTTON_4P_2V2_SW_SMD_4P_5D1X5D1_TS-1187A-B-A-B 
- SW2                 SW_ PUSHBUTTON_4P_2V2_SW_SMD_4P_5D1X5D1_TS-1187A-B-A-B 
- U1                  RT9013-33GB_SOT23-5_RT9013-33GB 
- U2                  STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6 
- Y1                  8MHZ_20PF_SMD5032-2P_SMD5032-2P_8MHZ,10PF 
- Y2                  32.768KHZ_12.5PF_SMD3215-2P_SMD3215-2P_32.768KHZ,12.5PF 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  10  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
+|                                                    Wed Dec 13 18:16:24 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1.2                           PRIM_FILE      .\pstchip.dat
- C2.2                           PRIM_FILE      .\pstchip.dat
- C3.2                           PRIM_FILE      .\pstchip.dat
- C4.2                           PRIM_FILE      .\pstchip.dat
- C5.2                           PRIM_FILE      .\pstchip.dat
- C6.2                           PRIM_FILE      .\pstchip.dat
- C7.2                           PRIM_FILE      .\pstchip.dat
- C8.2                           PRIM_FILE      .\pstchip.dat
- C9.2                           PRIM_FILE      .\pstchip.dat
- C10.2                          PRIM_FILE      .\pstchip.dat
- C11.2                          PRIM_FILE      .\pstchip.dat
- C12.2                          PRIM_FILE      .\pstchip.dat
- C13.2                          PRIM_FILE      .\pstchip.dat
- C14.2                          PRIM_FILE      .\pstchip.dat
- C15.2                          PRIM_FILE      .\pstchip.dat
- C16.2                          PRIM_FILE      .\pstchip.dat
- C17.2                          PRIM_FILE      .\pstchip.dat
- D1.C                           PRIM_FILE      .\pstchip.dat
- D2.C                           PRIM_FILE      .\pstchip.dat
- D3.C                           PRIM_FILE      .\pstchip.dat
- D4.C                           PRIM_FILE      .\pstchip.dat
- D5.C                           PRIM_FILE      .\pstchip.dat
- D6.C                           PRIM_FILE      .\pstchip.dat
- D7.C                           PRIM_FILE      .\pstchip.dat
- D8.C                           PRIM_FILE      .\pstchip.dat
- D9.C                           PRIM_FILE      .\pstchip.dat
- J1.B4A9                        PRIM_FILE      .\pstchip.dat
- J2.3                           PRIM_FILE      .\pstchip.dat
- J3.2                           PRIM_FILE      .\pstchip.dat
- J4.5                           PRIM_FILE      .\pstchip.dat
- J5.6                           PRIM_FILE      .\pstchip.dat
- J6.4                           PRIM_FILE      .\pstchip.dat
- J7.6                           PRIM_FILE      .\pstchip.dat
- J8.8                           PRIM_FILE      .\pstchip.dat
- J9.2                           PRIM_FILE      .\pstchip.dat
- J10.2                          PRIM_FILE      .\pstchip.dat
- Q1.2                           PRIM_FILE      .\pstchip.dat
- R1.2                           PRIM_FILE      .\pstchip.dat
- R2.2                           PRIM_FILE      .\pstchip.dat
- R3.2                           PRIM_FILE      .\pstchip.dat
- R4.2                           PRIM_FILE      .\pstchip.dat
- R5.2                           PRIM_FILE      .\pstchip.dat
- R6.2                           PRIM_FILE      .\pstchip.dat
- R7.2                           PRIM_FILE      .\pstchip.dat
- R8.2                           PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  11  |
+ R40.2                          PRIM_FILE      .\pstchip.dat
+ R41.2                          PRIM_FILE      .\pstchip.dat
+ R42.2                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R9.2                           PRIM_FILE      .\pstchip.dat
- R10.2                          PRIM_FILE      .\pstchip.dat
- R11.2                          PRIM_FILE      .\pstchip.dat
- R12.2                          PRIM_FILE      .\pstchip.dat
- R13.2                          PRIM_FILE      .\pstchip.dat
- R14.2                          PRIM_FILE      .\pstchip.dat
- R15.2                          PRIM_FILE      .\pstchip.dat
- R16.2                          PRIM_FILE      .\pstchip.dat
- R17.2                          PRIM_FILE      .\pstchip.dat
- R18.2                          PRIM_FILE      .\pstchip.dat
- R19.2                          PRIM_FILE      .\pstchip.dat
- R20.2                          PRIM_FILE      .\pstchip.dat
- R21.2                          PRIM_FILE      .\pstchip.dat
- R22.2                          PRIM_FILE      .\pstchip.dat
- R23.2                          PRIM_FILE      .\pstchip.dat
- R24.2                          PRIM_FILE      .\pstchip.dat
- R25.2                          PRIM_FILE      .\pstchip.dat
- R26.2                          PRIM_FILE      .\pstchip.dat
- R27.2                          PRIM_FILE      .\pstchip.dat
- R28.2                          PRIM_FILE      .\pstchip.dat
- R29.2                          PRIM_FILE      .\pstchip.dat
- R30.2                          PRIM_FILE      .\pstchip.dat
- R31.2                          PRIM_FILE      .\pstchip.dat
- R32.2                          PRIM_FILE      .\pstchip.dat
- R33.2                          PRIM_FILE      .\pstchip.dat
- R34.2                          PRIM_FILE      .\pstchip.dat
- R35.2                          PRIM_FILE      .\pstchip.dat
- R36.2                          PRIM_FILE      .\pstchip.dat
- R37.2                          PRIM_FILE      .\pstchip.dat
- R38.2                          PRIM_FILE      .\pstchip.dat
- R39.2                          PRIM_FILE      .\pstchip.dat
- SH1.1                          PRIM_FILE      .\pstchip.dat
- SH2.1                          PRIM_FILE      .\pstchip.dat
- SH3.1                          PRIM_FILE      .\pstchip.dat
- SH4.1                          PRIM_FILE      .\pstchip.dat
- SW1.4                          PRIM_FILE      .\pstchip.dat
- SW2.4                          PRIM_FILE      .\pstchip.dat
- U1.5                           PRIM_FILE      .\pstchip.dat
- U2.4                           PRIM_FILE      .\pstchip.dat
- U2.47                          PRIM_FILE      .\pstchip.dat
- Y1.2                           PRIM_FILE      .\pstchip.dat
- Y2.2                           PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  12  |
-|------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 15:12:40 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|       Nets changed          :     254                                        |
-|       Comp definitions added:      36                                        |
-|       Components added      :      86                                        |
-|       Slot property added   :      87                                        |
+|       Nets changed          :       6                                        |
+|       Components added      :       3                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:     463                                        |
+|   Total ECO changes reported:      12                                        |
 |------------------------------------------------------------------------------|

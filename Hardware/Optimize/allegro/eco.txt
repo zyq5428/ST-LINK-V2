@@ -2,8 +2,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 18:16:24 2023  |
+|  F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd              |
+|                                                    Mon Dec 18 11:23:45 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -24,12 +24,32 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N115138      pins ADDED TO this existing net (pins not previously on any net)
                                  R40.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N120270      pins MOVED FROM this net (to net name listed on right)
+                                 C17.1           1368.19  925.00
+                                                                          EXT11
+                                 SW2.3           1704.92  997.84
+                                                                          EXT11
+                                 SW2.4           1445.08  997.84
+                                                                          EXT11
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 18:16:24 2023  |
+|  F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd              |
+|                                                    Mon Dec 18 11:23:45 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R29                 RES_0R_5%_0402_RESC100X50X40L25N_0R,5% 1350.00  970.00
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd              |
+|                                                    Mon Dec 18 11:23:45 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -40,10 +60,10 @@
  R42                 RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC) 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd              |
-|                                                    Wed Dec 13 18:16:24 2023  |
+|  F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd              |
+|                                                    Mon Dec 18 11:23:45 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -53,9 +73,10 @@
  R41.2                          PRIM_FILE      .\pstchip.dat
  R42.2                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
+|       Nets changed          :       9                                        |
 |       Components added      :       3                                        |
+|       Components deleted    :       1                                        |
 |       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:      12                                        |
+|   Total ECO changes reported:      16                                        |
 |------------------------------------------------------------------------------|

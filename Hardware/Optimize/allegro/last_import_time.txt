@@ -14,3 +14,7 @@
 2023-12-13T18:16:24 ===> "E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/pstxnet.dat"
 2023-12-13T18:16:24 ===> "E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/pstxprt.dat"
 2023-12-13T18:16:24 ===> "E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/pstdmlmodels.dat"
+2023-12-18T11:23:45 ===> "f:/st-link-v2/hardware/optimize/allegro/pstchip.dat"
+2023-12-18T11:23:45 ===> "f:/st-link-v2/hardware/optimize/allegro/pstxnet.dat"
+2023-12-18T11:23:45 ===> "f:/st-link-v2/hardware/optimize/allegro/pstxprt.dat"
+2023-12-18T11:23:45 ===> "f:/st-link-v2/hardware/optimize/allegro/pstdmlmodels.dat"

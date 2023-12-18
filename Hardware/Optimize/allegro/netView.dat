@@ -1,5 +1,5 @@
 A!NET_NAME!NET_LOGICAL_PATH!NET_CDS_FSP_UID!NET_SHIELD_NET!NET_RELATIVE_PROPAGATION_DELAY!NET_NO_PIN_ESCAPE!NET_NET_SHORT!NET_VOLTAGE_LAYER!NET_VOLTAGE!NET_RATSNEST_SCHEDULE!NET_CLOCK_NET!NET_NET_PHYSICAL_TYPE!NET_MAX_FINAL_SETTLE!NET_NO_TEST!NET_MAX_EXPOSED_LENGTH!NET_ELECTRICAL_CONSTRAINT_SET!NET_CDS_FSP_BUS_INDEX!NET_STUB_LENGTH!NET_SHIELD_TYPE!NET_NO_RAT!NET_PROPAGATION_DELAY!NET_NO_RIPUP!NET_MIN_HOLD!NET_DIFFERENTIAL_PAIR!NET_MIN_SETUP!NET_MIN_NECK_WIDTH!NET_BUS_NAME!NET_MIN_NOISE_MARGIN!NET_MATCHED_DELAY!NET_ECL!NET_DIFFP_LENGTH_TOL!NET_DIFFP_2ND_LENGTH!NET_NET_GROUP_GRP_NAME!NET_SUBNET_NAME!NET_MIN_BOND_LENGTH!NET_MAX_OVERSHOOT!NET_TS_ALLOWED!NET_MAX_VIA_COUNT!NET_EMC_CRITICAL_NET!NET_CDS_FSP_NET!NET_PROBE_NUMBER!NET_NO_ROUTE!NET_MIN_LINE_WIDTH!NET_ECL_TEMP!NET_NO_GLOSS!NET_ROUTE_PRIORITY!NET_NET_SPACING_TYPE!NET_IMPEDANCE_RULE!
-J!E:/ST-LINK-V2/HARDWARE/OPTIMIZE/allegro/st-link-v2_pro_opt.brd!Wed Dec 13 18:16:21 2023!-665.16!-35594.59!17009.84!11925.20!0.01!mils!ST-LINK-V2_PRO_OPT!60.433071 mil!2!UP TO DATE!
+J!F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd!Mon Dec 18 11:23:18 2023!-665.16!-35594.59!17009.84!11925.20!0.01!mils!ST-LINK-V2_PRO_OPT!60.433071 mil!2!OUT OF DATE!
 S!PWR_EXT!@\st-link-v2_pro_opt\.\st-link\(sch_1):pwr_ext!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N44671!@\st-link-v2_pro_opt\.\st-link\(sch_1):n44671!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!MCO!@\st-link-v2_pro_opt\.\st-link\(sch_1):mco!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -52,7 +52,7 @@ S!OSC32_OUT!@\st-link-v2_pro_opt\.\st-link\(sch_1):osc32_out!!!!!!!!!!!!!!!!!!!!
 S!OSC32_IN!@\st-link-v2_pro_opt\.\st-link\(sch_1):osc32_in!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!OSC_OUT!@\st-link-v2_pro_opt\.\st-link\(sch_1):osc_out!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!OSC_IN!@\st-link-v2_pro_opt\.\st-link\(sch_1):osc_in!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-S!3V3_ST!@\st-link-v2_pro_opt\.\st-link\(sch_1):\3v3_st\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!3V3_ST!@\st-link-v2_pro_opt\.\st-link\(sch_1):\3v3_st\!!!!!!!3.3V!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N01383!@\st-link-v2_pro_opt\.\st-link\(sch_1):n01383!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N116586!@\st-link-v2_pro_opt\.\st-link\(sch_1):n116586!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N60172!@\st-link-v2_pro_opt\.\st-link\(sch_1):n60172!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -65,7 +65,7 @@ S!N112115!@\st-link-v2_pro_opt\.\st-link\(sch_1):n112115!!!!!!!!!!!!!!!!!!!!!!!!
 S!USB_N!@\st-link-v2_pro_opt\.\st-link\(sch_1):usb_n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!USB_P!@\st-link-v2_pro_opt\.\st-link\(sch_1):usb_p!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!AIN_1!@\st-link-v2_pro_opt\.\st-link\(sch_1):ain_1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-S!U5V!@\st-link-v2_pro_opt\.\st-link\(sch_1):u5v!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-S!GND!@\st-link-v2_pro_opt\.\st-link\(sch_1):gnd!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!U5V!@\st-link-v2_pro_opt\.\st-link\(sch_1):u5v!!!!!!!5V!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!GND!@\st-link-v2_pro_opt\.\st-link\(sch_1):gnd!!!!!!!0V!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N18917!@\st-link-v2_pro_opt\.\st-link\(sch_1):n18917!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N18913!@\st-link-v2_pro_opt\.\st-link\(sch_1):n18913!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

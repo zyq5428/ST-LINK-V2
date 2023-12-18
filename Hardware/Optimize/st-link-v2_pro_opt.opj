@@ -1,6 +1,6 @@
 (ExpressProject "ST-Link-V2"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[12/13/23]")
+  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[12/18/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -96,16 +96,16 @@
   (Folder "Logs"
     (File ".\allegro\netlist.log"
       (Type "Log File")
-      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\netlist.log"))
+      (LogFile "f:\st-link-v2\hardware\optimize\allegro\netlist.log"))
     (File ".\allegro\netrev.lst"
       (Type "Log File")
-      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\netrev.lst"))
+      (LogFile "f:\st-link-v2\hardware\optimize\allegro\netrev.lst"))
     (File ".\allegro\eco.txt"
       (Type "Log File")
-      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\eco.txt"))
+      (LogFile "f:\st-link-v2\hardware\optimize\allegro\eco.txt"))
     (File ".\allegro\genfeed.log"
       (Type "Log File")
-      (LogFile "E:\ST-LINK-V2\HARDWARE\OPTIMIZE\allegro\genfeed.log")))
+      (LogFile "f:\st-link-v2\hardware\optimize\allegro\genfeed.log")))
   (PartMRUSelector
     (ESD_B_TVSS5VCES_5V_SOD-523
       (FullPartName "ESD_B_TVSS5VCES_5V_SOD-523.Normal")
@@ -232,13 +232,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1043"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1049"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1468 28 1065")
-        (Scroll "3893 1333")
+        (Placement "44 0 1 -1 -1 -1 -1 5 3194 28 1071")
+        (Scroll "0 539")
         (Zoom "264")
         (Occurrence "/"))
       (Path "F:\ST-LINK-V2\HARDWARE\OPTIMIZE\ST-LINK-V2_PRO_OPT.DSN")

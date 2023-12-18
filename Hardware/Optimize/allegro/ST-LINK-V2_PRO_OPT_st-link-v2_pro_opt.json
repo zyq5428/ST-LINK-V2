@@ -3,9 +3,37 @@
 	"Ref Des" : [],
 	"Pin Swap" : [],
 	"Component Property" : [],
-	"Net Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "GND",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):gnd",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0V"
+		},
+		{
+			"Name" : "U5V",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):u5v",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5V"
+		},
+		{
+			"Name" : "3V3_ST",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):\\3v3_st\\",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "3.3V"
+		}
+	],
 	"Pin Property" : [],
 	"Component" : [
+		{
+			"Name" : "R29",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins122007@private.\\res_0r_5%_0402.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "R29"
+		},
 		{
 			"Name" : "R40",
 			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126218@private.\\res_0r_5%_0402.normal\\(chips)",
@@ -25,8 +53,21 @@
 			"Physical" : null
 		}
 	],
-	"Net" : [],
+	"Net" : [
+		{
+			"Name" : "N120270",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):n120270",
+			"Logical" : null,
+			"Physical" : "N120270"
+		}
+	],
 	"Connection" : [
+		{
+			"Name" : "C17.1",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins120314@private.\\cap_100nf_25v_x5r_0402.normal\\(chips):\\1\\",
+			"Logical" : "EXT11",
+			"Physical" : "N120270"
+		},
 		{
 			"Name" : "R40.1",
 			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126218@private.\\res_0r_5%_0402.normal\\(chips):\\1\\",
@@ -62,6 +103,18 @@
 			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins126429@private.\\res_4.7k_5%_0402.normal\\(chips):\\2\\",
 			"Logical" : "I2C1_SDA",
 			"Physical" : null
+		},
+		{
+			"Name" : "SW2.4",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins120294@private.\\sw_ pushbutton_4p_2v2.normal\\(chips):\\4\\",
+			"Logical" : "EXT11",
+			"Physical" : "N120270"
+		},
+		{
+			"Name" : "SW2.3",
+			"C_PATH" : "@\\st-link-v2_pro_opt\\.\\st-link\\(sch_1):ins120294@private.\\sw_ pushbutton_4p_2v2.normal\\(chips):\\3\\",
+			"Logical" : "EXT11",
+			"Physical" : "N120270"
 		}
 	]
 }

@@ -4,8 +4,19 @@
 (                                                                     )
 (    Drawing          : st-link-v2_pro_opt.brd                        )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Wed Dec 13 15:55:25 2023                      )
+(    Date/Time        : Mon Dec 18 11:24:20 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+State: Placing on layer TOP
+
+         Placed symbol:  R40 / RES_0R_5%_0402_RESC100X50X40L25N_0R,5% / RESC100X50X40L25N at (48.98 1216.10)
+         Placed symbol:  R41 / RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC) / RESC100X50X40L25N at (136.94 1216.10)
+         Placed symbol:  R42 / RES_4.7K_5%_0402_RESC100X50X40L25N_4.7K,5%(NC) / RESC100X50X40L25N at (224.90 1216.10)
+
+
+Placed 3 of 3 applicable (3 total) symbols.
+
+-----------------------------------------------------------------------
 

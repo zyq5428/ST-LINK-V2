@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.4.0 d001Dec-13-2023 at 18:16:23 }
+{ Using PSTWRITER 17.4.0 d001Dec-18-2023 at 11:23:44 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='ST-LINK-V2_PRO_OPT';
@@ -584,16 +584,6 @@ SECTION_NUMBER 1
  '@ST-LINK-V2_PRO_OPT.ST-LINK(SCH_1):INS120992@PRIVATE.RES_1K_5%_0603.NORMAL(CHIPS)':
  C_PATH='@\st-link-v2_pro_opt\.\st-link\(sch_1):ins120992@private.\res_1k_5%_0603.normal\(chips)',
  P_PATH='@\st-link-v2_pro_opt\.\st-link\(sch_1):page1_ins120992@private.\res_1k_5%_0603.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R29 'RES_0R_5%_0402_RESC100X50X40L25N_0R,5%':;
-
-SECTION_NUMBER 1
- '@ST-LINK-V2_PRO_OPT.ST-LINK(SCH_1):INS122007@PRIVATE.RES_0R_5%_0402.NORMAL(CHIPS)':
- C_PATH='@\st-link-v2_pro_opt\.\st-link\(sch_1):ins122007@private.\res_0r_5%_0402.normal\(chips)',
- P_PATH='@\st-link-v2_pro_opt\.\st-link\(sch_1):page1_ins122007@private.\res_0r_5%_0402.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
