@@ -1,40 +1,26 @@
-\t (00:00:07) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:07)     Journal start - Tue Dec 19 09:01:31 2023
-\t (00:00:07)         Host=LTSC-20211101AY User=Administrator Pid=12856 CPUs=8
-\t (00:00:07) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe E:\ST-LINK-V2\Hardware\Original\allegro\st-link-v2_pro.brd
-\t (00:00:07) 
-   (00:00:07) Loading axlcore.cxt 
-\t (00:00:08) Opening existing design...
-\d (00:00:09) Design opened: E:/ST-LINK-V2/Hardware/Original/allegro/st-link-v2_pro.brd
-\i (00:00:09) trapsize 1237
-\i (00:00:09) trapsize 1270
-\i (00:00:09) trapsize 1258
-\i (00:00:09) trapsize 1258
-\t (00:00:09) > Sending response DoneOpenBoard
-\i (00:00:10) generaledit 
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 1071.62 372.84
-\i (00:00:10) trapsize 2517
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 403.17 377.87
-\i (00:00:10) trapsize 5034
-\i (00:00:11) zoom in 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom in -413.24 -714.37
-\i (00:00:11) trapsize 2517
-\i (00:00:15) artwork 
-\i (00:00:24) setwindow form.film_control
-\i (00:00:24) FORM film_control load  
-\i (00:00:31) fillin "menu_cancel"
-\i (00:00:33) FORM film_control general_parameters  
-\i (00:00:35) FORM film_control film_control  
-\i (00:00:41) FORM film_control select_all  
-\i (00:00:43) FORM film_control filmtree  TOP 
-\i (00:01:10) FORM film_control filmtree popup Save TOP 
-\i (00:01:55) FORM film_control cancel  
-\i (00:01:55) setwindow pcb
-\i (00:01:55) generaledit 
-\i (00:01:56) exit 
-\t (00:01:56)     Journal end - Tue Dec 19 09:03:20 2023
+\t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Dec 21 21:53:07 2023
+\t (00:00:02)         Host=HEROZHOU User=59427 Pid=13148 CPUs=12
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\ST-LINK-V2\Hardware\Original\allegro\st-link-v2_pro.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: F:/ST-LINK-V2/Hardware/Original/allegro/st-link-v2_pro.brd
+\i (00:00:03) trapsize 1454
+\i (00:00:03) trapsize 1516
+\i (00:00:04) trapsize 1485
+\i (00:00:04) trapsize 1485
+\t (00:00:04) > Sending response DoneOpenBoard
+\i (00:00:04) generaledit 
+\i (00:00:06) prmed 
+\i (00:00:07) setwindow form.prmedit
+\i (00:00:07) FORM prmedit text  
+\i (00:00:08) FORM prmedit text_setup_button  
+\i (00:07:42) setwindow form.textblock
+\i (00:07:42) FORM textblock cancel  
+\i (00:07:44) setwindow form.prmedit
+\i (00:07:44) FORM prmedit cancel  
+\i (00:07:44) setwindow pcb
+\i (00:07:44) generaledit 
+\i (00:07:45) exit 
+\t (00:07:47)     Journal end - Thu Dec 21 22:00:53 2023
