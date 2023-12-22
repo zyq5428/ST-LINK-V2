@@ -1,0 +1,448 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : st-link-v2_pro_opt.brd                        )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Fri Dec 22 16:05:05 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                5.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     OUTLINE created.
+
+
+================================================================
+     PROCESSING FILM < DRILL >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/DRILL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-10.00 -2175.00) in MIL
+           ... using undefined line width of 6.00 MIL
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00 MIL
+
+    WARNING: text composed 0 width line found at (439.50 -862.50) in MIL
+           ... using undefined line width of 6.00 MIL
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00 MIL
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     DRILL created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00472                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+
+     SILKSCREEN_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.06220                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.09842                                  DARK 
+  SQUARE     0.06220                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  OBLONG     0.04134     x 0.08071      90.000 NO     DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.06220                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.09842                                  DARK 
+  SQUARE     0.06220                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.07493     x 0.04737       0.000 NO     DARK 
+  OBLONG     0.04134     x 0.08071      90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,658.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,567.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,547.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,394.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,618.00  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,394.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,547.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,658.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,567.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,525.00 270.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00 270.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,525.00 270.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,618.00 270.000 NO     DARK 
+
+     SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     PASTEMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  RECTANGLE  0.01181     x 0.04488      90.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.04488      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.03937       0.000 NO     DARK 
+  OBLONG     0.03937     x 0.07874      90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,567.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,547.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,394.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,658.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,618.00  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,567.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,547.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,658.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,394.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00 270.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,618.00 270.000 NO     DARK 
+
+     PASTEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.06220                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.09449                                  DARK 
+  SQUARE     0.06220                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  OBLONG     0.03937     x 0.07874      90.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00 MIL
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.06220                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.09449                                  DARK 
+  SQUARE     0.06220                     0.000 NO     DARK 
+  SQUARE     0.06496                     0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.04488      90.000 NO     DARK 
+  RECTANGLE  0.01968     x 0.04488      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.03937       0.000 NO     DARK 
+  OBLONG     0.03937     x 0.07874      90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,567.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,547.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,394.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,658.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00   0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,618.00  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,547.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,787.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,567.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,492.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,658.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,394.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,216.00 270.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,618.00 270.000 NO     DARK 
+
+     TOP created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        OUTLINE created.
+        DRILL created with warnings
+        SILKSCREEN_BOTTOM created.
+        SILKSCREEN_TOP created.
+        SOLDERMASK_BOTTOM created.
+        SOLDERMASK_TOP created.
+        PASTEMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        BOTTOM created.
+        TOP created.
+
+ ARTWORK had warnings

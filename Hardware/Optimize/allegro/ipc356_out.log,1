@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    IPC-D-356                                                        )
+(                                                                     )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Fri Dec 22 16:06:31 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Warning: String SLOT_OB60_170OB100_200 exceeds record length on line 50 at column 4
+Warning: String A1B12 exceeds record length on line 514 at column 28
+Warning: String B1A12 exceeds record length on line 518 at column 28
+
+
+------------------------------------------
+SUMMARY:
+  Errors:       0
+  Warnings:     3

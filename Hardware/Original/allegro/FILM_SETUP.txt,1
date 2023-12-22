@@ -1,0 +1,6 @@
+axlFilmCreate( "TOP" ?negative nil ?undefineLineWidth 6.00 ?sequence 1 
+	?rotation 0 ?xOffset 0.00 ?yOffset 0.00 ?shapeBoundingBox 100.00 ?mirrored nil ?fullContact nil 
+	?suppressUnconnectPads nil ?drawMissingPadApertures nil ?useApertureRotation nil 
+	?suppressShapeFill nil ?vectorBasedPad t ?drawHolesOnly nil 
+	?domains '(ipc2581 pdf artwork visibility ) ?ipc2581 '() 
+	?layers '("BOARD GEOMETRY/DESIGN_OUTLINE" "ETCH/TOP" "PIN/TOP" "VIA CLASS/TOP" ))

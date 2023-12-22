@@ -1,26 +1,44 @@
 \t (00:00:02) allegro 17.4 S035 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Thu Dec 21 21:53:07 2023
-\t (00:00:02)         Host=HEROZHOU User=59427 Pid=13148 CPUs=12
-\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe F:\ST-LINK-V2\Hardware\Original\allegro\st-link-v2_pro.brd
+\t (00:00:02)     Journal start - Fri Dec 22 15:53:21 2023
+\t (00:00:02)         Host=LTSC-20211101AY User=Administrator Pid=12096 CPUs=8
+\t (00:00:02) CmdLine= d:\cadence\cadence\spb_17.4\tools\bin\allegro.exe E:\ST-LINK-V2\Hardware\Original\allegro\st-link-v2_pro.brd
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
-\t (00:00:02) Opening existing design...
-\d (00:00:02) Design opened: F:/ST-LINK-V2/Hardware/Original/allegro/st-link-v2_pro.brd
-\i (00:00:03) trapsize 1454
-\i (00:00:03) trapsize 1516
-\i (00:00:04) trapsize 1485
-\i (00:00:04) trapsize 1485
-\t (00:00:04) > Sending response DoneOpenBoard
-\i (00:00:04) generaledit 
-\i (00:00:06) prmed 
-\i (00:00:07) setwindow form.prmedit
-\i (00:00:07) FORM prmedit text  
-\i (00:00:08) FORM prmedit text_setup_button  
-\i (00:07:42) setwindow form.textblock
-\i (00:07:42) FORM textblock cancel  
-\i (00:07:44) setwindow form.prmedit
-\i (00:07:44) FORM prmedit cancel  
-\i (00:07:44) setwindow pcb
-\i (00:07:44) generaledit 
-\i (00:07:45) exit 
-\t (00:07:47)     Journal end - Thu Dec 21 22:00:53 2023
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: E:/ST-LINK-V2/Hardware/Original/allegro/st-link-v2_pro.brd
+\i (00:00:05) trapsize 1237
+\i (00:00:05) trapsize 1270
+\i (00:00:05) trapsize 1258
+\i (00:00:05) trapsize 1258
+\t (00:00:05) > Sending response DoneOpenBoard
+\i (00:00:06) generaledit 
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 751.96 571.68
+\i (00:00:06) trapsize 2517
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -241.18 571.68
+\i (00:00:06) trapsize 5034
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 986.20 111.20
+\i (00:00:06) trapsize 5415
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 265.35 -81.23
+\i (00:00:07) trapsize 2708
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -1104.74 -81.23
+\i (00:00:08) trapsize 5415
+\i (00:00:24) artwork 
+\i (00:00:26) setwindow form.film_control
+\i (00:00:26) FORM film_control select_all  
+\i (00:02:18) FORM film_control filmtree  PDF_A_TOP 
+\i (00:02:19) FORM film_control filmtree popup 'Save All Checked' PDF_A_TOP 
+\i (00:02:57) FORM film_control cancel  
+\i (00:02:57) setwindow pcb
+\i (00:02:57) generaledit 
+\i (00:02:58) exit 
+\t (00:02:58)     Journal end - Fri Dec 22 15:56:17 2023

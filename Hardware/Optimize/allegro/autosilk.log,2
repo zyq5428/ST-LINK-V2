@@ -1,0 +1,56 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : st-link-v2_pro_opt.brd                        )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Wed Dec 20 18:03:56 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+No Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+Text string '32.768KHZ_12.5PF_SMD3215-2P_SMD3215-2P_32.768KHZ,12.5PF' is not at a suitable location
+(location: 1025.00, 219.49)
+Text string '8MHZ_20PF_SMD5032-2P_SMD5032-2P_8MHZ,10PF' is not at a suitable location
+(location: 1249.31, 203.74)
+Text string 'R28' is not at a suitable location
+(location: 1570.28, 187.00)
+Text string 'D9' is not at a suitable location
+(location: 316.00, 208.00)
+Text string 'D2' is not at a suitable location
+(location: 506.85, 700.00)
+Text string 'C9' is not at a suitable location
+(location: 975.00, 175.00)
+Text string '.PARTNO' is not at a suitable location
+(location: 1775.00, 700.00)
+Text string 'TS-1187A-B-A-B' is not at a suitable location
+(location: 1775.00, 1125.00)
+Text string '.PARTNO' is not at a suitable location
+(location: 525.00, 725.00)
+Text string 'J5' is not at a suitable location
+(location: 464.00, 75.00)
+Text string 'STM32F103CBT6_QFP50P900X900X145-48N_(S1+S2)_STM32F103CBT6' is not at a suitable location
+(location: 1073.05, 589.96)
+
+Total Failures: 11
+
+Log End
+
