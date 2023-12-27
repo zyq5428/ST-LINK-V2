@@ -1,13 +1,14 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    DBDOCTOR                                                         )
+(    PDF Export                                                       )
 (                                                                     )
-(    Drawing          : st-link-v2_pro_opt.brd                        )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Sat Dec 23 13:48:42 2023                      )
+(    Date/Time        : Wed Dec 27 22:22:44 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-0 warnings, 0 errors detected, 0 errors could be fixed.
+Output file: F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.pdf
+Design file: F:/ST-LINK-V2/Hardware/Optimize/allegro/st-link-v2_pro_opt.brd
+pdf_out complete.

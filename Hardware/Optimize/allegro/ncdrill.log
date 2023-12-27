@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : st-link-v2_pro_opt.brd                        )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Fri Dec 22 15:46:34 2023                      )
+(    Date/Time        : Sat Dec 23 13:49:40 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -54,7 +54,7 @@
           25.59  N        T05            0.000000     0.000000
 
 
-Drill files being output to directory 'E:/ST-LINK-V2/Hardware/Optimize/allegro' ...
+Drill files being output to directory 'F:/ST-LINK-V2/Hardware/Optimize/allegro' ...
 
 
 

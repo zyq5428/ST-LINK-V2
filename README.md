@@ -10,6 +10,8 @@
 
 ## 产品效果图
 
+### Nucleo版本
+
 * 正面
 
 ![TOP.png](./assets/TOP.png)
@@ -25,6 +27,30 @@
 
 ![焊接成品.jpg](./assets/焊接成品.jpg)
 
+### 优化版
+
+* 在Nucleo版本上进行了一些优化，去除了不必要的东西，然后按照自己的想法进行了一些接口的预留
+
+* 正面
+
+![优化版TOP.png](./assets/优化版TOP.png)
+
+* 背面
+
+![优化版BOTTOM.png](./assets/优化版BOTTOM.png)
+
+* 拼板效果图
+
+![拼板.png](./assets/拼板.png)
+
+* PCB回板
+
+![实物拼板.jpg](./assets/实物拼板.jpg)
+
+* 成品
+
+![优化成品.jpg](./assets/优化成品.jpg)
+
 ## 原理介绍
 
 借鉴于：https://oshwhub.com/CYIIOT/ST_LINK-V2_1
@@ -34,7 +60,8 @@
 * ST-Link的硬件，官方推出了三大版本：V1、V2和V3。在官方《TN1235 ST-LINK衍生产品概述》中有详细的说明。
 * ST-Link/V2：支持STM32和STM8调试，不带虚拟串口，TB上卖的大多是这种，目前手头还有好几个这个版本的ST-Link。后面会使用这个版本进行烧录。
 * ST-Link/V2-1：支持STM32调试，带虚拟串口和虚拟U盘下载，目前ST官方的Nucleo系列评估板上面板载的ST-Link就是这个版本。
-* 潘多拉开发板上的ST-link V2-1 出厂主控使用的是FLASH 容量为64K的STM32F103C8T6，但是ST-link V2-1最新的固件已经超过了64K，芯片容量不足。 因此本项目主控选择的是FLASH容量为128KB的STM32F103CBT6（商品编号：C8304），这是C8T6的大容量版本，可以直接PIN to PIN 替换。也可以使用合宙通信推出的AIRF103CBT6，有伙伴测试是OK的。
+* 潘多拉开发板上的ST-link V2-1 出厂主控使用的是FLASH 容量为64K的STM32F103C8T6，但是ST-link V2-1最新的固件已经超过了64K，芯片容量不足。 因此本项目主控选择的是FLASH容量为128KB的STM32F103CBT6（商品编号：C8304），这是C8T6的大容量版本，可以直接PIN to PIN 替换。也可以使用合宙通信推出的AIR32F103CBT6，有伙伴测试是OK的。
+  * AIR32F103CBT6参考链接：[AIR32F103芯片 - LuatOS 文档](https://wiki.luatos.com/chips/air32f103/mcu.html)
 
 ### 版本检测和处理
 

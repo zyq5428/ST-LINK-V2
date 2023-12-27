@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : st-link-v2_pro_opt.brd                        )
 (    Software Version : 17.4S035                                      )
-(    Date/Time        : Fri Dec 22 16:05:05 2023                      )
+(    Date/Time        : Sat Dec 23 13:48:44 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -29,7 +29,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < OUTLINE >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/OUTLINE.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/OUTLINE.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -56,7 +56,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < DRILL >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/DRILL.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/DRILL.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -95,7 +95,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_BOTTOM >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SILKSCREEN_BOTTOM.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/SILKSCREEN_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -116,13 +116,14 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.02000                                  DARK 
 
      SILKSCREEN_BOTTOM created.
 
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_TOP >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SILKSCREEN_TOP.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/SILKSCREEN_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -145,7 +146,6 @@ Results from parameter file ...
   CIRCLE     0.00472                                  DARK 
   CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00787                                  DARK 
-  CIRCLE     0.00800                                  DARK 
   CIRCLE     0.00984                                  DARK 
   CIRCLE     0.01000                                  DARK 
 
@@ -154,7 +154,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_BOTTOM >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SOLDERMASK_BOTTOM.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/SOLDERMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -188,7 +188,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_TOP >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/SOLDERMASK_TOP.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/SOLDERMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -249,7 +249,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTEMASK_BOTTOM >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/PASTEMASK_BOTTOM.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/PASTEMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -276,7 +276,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTEMASK_TOP >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/PASTEMASK_TOP.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/PASTEMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -331,7 +331,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/BOTTOM.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -369,7 +369,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < E:/ST-LINK-V2/Hardware/Optimize/allegro/TOP.art > ...
+     TO FILE < F:/ST-LINK-V2/Hardware/Optimize/allegro/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
